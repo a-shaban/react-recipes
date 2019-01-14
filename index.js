@@ -1,1 +1,8 @@
-console.log("hello from recipes");
+import path from 'path'
+
+const log = (string) => 
+{
+    console.log(string)
+}
+
+log('hello from recipes')

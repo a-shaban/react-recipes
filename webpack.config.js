@@ -7,7 +7,7 @@ module.exports = {
     context: path.join(__dirname, 'src'),
     entry: './index.js',
     output: {
-        path: path.resolve(__dirname,'dist'),
+        path: path.resolve(__dirname, 'dist'),
         filename: './bundle.js'
     },
     module: {
@@ -15,13 +15,17 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel-loader'
+            },
+            {
+                test: /\.(png|jpg|jpeg)$/,
+                loader: 'file-loader'
             }
         ]
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template:'index.html',
-            inject:'body'
+            template: 'index.html',
+            inject: 'body'
 
         })
     ]

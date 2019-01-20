@@ -1,8 +1,10 @@
 import React from 'react';
+import { Twemoji } from 'react-emoji-render';
 
 const Header = () => (
-   <header>
-      <h1 className="red">MyRecipes</h1>
+   <header className="px4" >
+
+      <h1 className="h1"> <Twemoji text=":fork_and_knife:" />MyRecipes</h1>
    </header>
 );
 

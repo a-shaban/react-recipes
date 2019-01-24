@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-const RecipeDetail = (props) => {
+const RecipeDetail = props => {
   if (!props.recipe) {
     return (
       <p
         className={classNames('h3 p2 bg-white italic center', props.className)}
         style={props.style}
       >
-            Please select a recipe to see the details
+        Please select a recipe to see the details
       </p>
     );
   }
@@ -18,13 +18,8 @@ const RecipeDetail = (props) => {
       className={classNames('p2 bg-white', props.className)}
       style={props.style}
     >
-
       <h2 className="h2">{props.recipe.name}</h2>
-      <img
-        className="fit"
-        alt={props.recipe.name}
-        src={props.recipe.image}
-      />
+      <img className="fit" alt={props.recipe.name} src={props.recipe.image} />
       <div>
         <span>{props.recipe.category}</span>
         <span>{props.recipe.calories}</span>
@@ -33,18 +28,14 @@ const RecipeDetail = (props) => {
       <h3>Ingredients</h3>
       <ul>
         {props.recipe.ingredients.map(ingredients => (
-          <li key={ingredients}>
-            {ingredients}
-          </li>
+          <li key={ingredients}>{ingredients}</li>
         ))}
       </ul>
 
       <h3>Steps</h3>
       <ul>
         {props.recipe.steps.map(steps => (
-          <li key={steps}>
-            {steps}
-          </li>
+          <li key={steps}>{steps}</li>
         ))}
       </ul>
     </div>

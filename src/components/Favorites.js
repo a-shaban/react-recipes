@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../static/images/banner-1.jpg';
-import Menu from '../static/images/h1.jpg';
+import Menu from '../static/images/value-range.jpeg';
 
 const Favorites = () => (
   <div className="">

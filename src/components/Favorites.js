@@ -1,6 +1,9 @@
 import React from 'react';
 import Banner from '../static/images/banner-1.jpg';
-import Menu from '../static/images/value-range.jpeg';
+import ValueRange from '../static/images/value-range.jpeg';
+import LegendaryRange from '../static/images/legendary-range.jpeg';
+import TraditionalRange from '../static/images/traditional-range.jpeg';
+import Deals from '../static/images/deals.jpg';
 
 const Favorites = () => (
   <div className="">
@@ -16,21 +19,13 @@ const Favorites = () => (
         OUR MENU
       </div>
 
-      <div className="flex center p2">
-        <img className="flex-auto" alt={Menu} src={} />
+      <div className="pic-container">
+        <img className="menu-pics" alt={ValueRange} src={ValueRange} />
+        <img className="menu-pics" alt={LegendaryRange} src={LegendaryRange} />
       </div>
-
-      <div className="col col-6 center pb4">
-        Value
-      </div>
-      <div className="col col-6 center pb4">
-        Traditional
-      </div>
-      <div className="col col-6 center pb4">
-        LEGENDARY
-      </div>
-      <div className="col col-6 center pb4">
-        DEALS
+      <div className="pic-container">
+        <img className="menu-pics" alt={TraditionalRange} src={TraditionalRange} />
+        <img className="menu-pics" alt={Deals} src={Deals} />
       </div>
       <div className="pb4 px4">
         OUR SIDES

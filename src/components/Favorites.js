@@ -17,7 +17,7 @@ const Favorites = () => (
       </div>
 
       <div className="flex center p2">
-        <img className="flex-auto" alt={Menu} src={Menu} />
+        <img className="flex-auto" alt={Menu} src={} />
       </div>
 
       <div className="col col-6 center pb4">

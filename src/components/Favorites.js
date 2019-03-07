@@ -4,11 +4,12 @@ import LegendaryRange from '../static/images/legendary-range.jpeg';
 import TraditionalRange from '../static/images/traditional-range.jpeg';
 import Deals from '../static/images/deals.jpg';
 import Sides from './Sides';
+import Header from './Header';
 
 
 const Favorites = () => (
-  <div className="">
-
+  <div>
+    <Header />
     <div className="btn-section clearfix">
       <div className="col col-6">
         <button className="btn btn-primary main-btns">

@@ -1,7 +1,12 @@
 import React from 'react';
+import Banner from '../static/images/banner-1.jpg';
+
+const bgImage = {
+  backgroundImage: `url(${Banner})`,
+};
 
 const Header = () => (
-  <header className="px4 pr4 pb2 flex">
+  <header className="px4 pr4 pb4 flex" style={bgImage}>
     <h1 className=" ">
       LOGO
     </h1>

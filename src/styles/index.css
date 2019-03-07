@@ -34,7 +34,41 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu-pics{
    padding: 3%;
+   flex: 1;
+   min-width: 20rem;
+}
+
+.sides{
    display: flex;
    flex-wrap: wrap;
+}
+
+.sides-pics{
+   padding: 0.3%;
+   max-width: 18rem;
+   max-height: 15rem;
    flex: 1;
+}
+
+.main-btns{
+   font-size: 2rem;
+   margin: 2rem;
+   border-radius: 1rem;
+   background-color : rgb(238, 206, 147);
+}
+
+.main-btns:hover{
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-section{
+   height: 50%;
+}
+
+.second-header {
+   color: skyblue;
+}
+
+.abcd{
+   background-color: #bdbdbd;
 }

@@ -8,10 +8,10 @@ import Footer from './Footer';
 const App = () => (
   <BrowserRouter>
     <main>
-      <Header /> 
+      <Header />
       <Route exact path="/" component={Home} />
       <Route path="/favorites" component={Favorites} />
-      <Footer /> 
+      <Footer />
     </main>
   </BrowserRouter>
 );

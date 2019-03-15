@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter , Route, Switch } from 'react-router-dom';
 import Home from './Home';
-import Favorites from './Favorites';
+import HomePage from './HomePage';
 import Products from './Products';
 import Footer from './Footer';
 import GivingBack from './GivingBack'
@@ -9,10 +9,12 @@ import GivingBack from './GivingBack'
 const App = () => (
   <BrowserRouter>
     <main>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/products" component={Products} />
-      <Route path="/favorites" component={Favorites} />
-      <Route path="/giving-back" component={GivingBack} />
+      <Switch>
+        <Route exact={true} path="/" component={HomePage} />
+        <Route exact={true}  path="/products" component={Products} />
+        <Route exact={true}  path="/giving-back" component={GivingBack} />
+      </Switch>
+      
       <Footer />
     </main>
   </BrowserRouter>

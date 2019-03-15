@@ -8,20 +8,7 @@ import Sides from './Sides';
 
 const HomePage = () => (
   <div>
-    <div className="btn-section clearfix">
-      <div className="col col-6">
-        <button className="btn btn-primary main-btns">
-          Order Online
-         </button>
-      </div>
-      <div className="col col-6">
-        <button className="btn btn-primary main-btns">
-          Call
-        </button>
-      </div>
-      
-    </div>
-
+    
     <div className="abcd">
       <div className="pb4 px4">
         OUR MENU

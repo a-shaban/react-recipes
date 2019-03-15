@@ -1,0 +1,25 @@
+.our-navbar {
+   padding-left: 10%;
+   padding-right: 10%;
+   background-color: #cc7500;
+}
+
+.navbar-item {
+   display: inline-flex;
+   flex: 1;
+}
+
+.navbar-item :hover {
+   background-color: #e29503;
+}
+
+.navbar-text {
+   text-align: center;
+   display: block;
+   margin: auto;
+   color: white;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   padding-right: 0.5rem;
+   padding-left: 0.5rem;
+}

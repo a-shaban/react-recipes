@@ -3,34 +3,52 @@ import { Link } from 'react-router-dom';
 
 
 const Footer = () => (
+	<div>
+		<div className="news-letter">
+			<form>
+				<label htmlFor="search">Search</label>
+				<input id="search" type="text" className="field"></input>
+				<button className="btn btn-primary">Go</button>
+			</form>
+		</div>
+		<div className="footer-links">
 
-	<footer className="page-footer font-small footer">
-
-		<div className="container footer-copyright text-center ">
-
-			<div className="">
-				<div className="col-md-2 mb-3">
-					<h5 className="text-uppercase font-weight-bold">
-						<Link to="/">Home</Link>
-					</h5>
-				</div>
-				<div className="col-md-2 mb-3">
-					<h5 className="text-uppercase font-weight-bold">
-						<Link to="/products">Products</Link>
-					</h5>
-				</div>
-				<div className="col-md-2 mb-3">
-					<h5 className="text-uppercase font-weight-bold">
-						<Link to="/giving-back">Giving Back</Link>
-					</h5>
-				</div>
-			</div>
 		</div>
 
-		<div className="footer-copyright text-center py-3">© 2018 Copyright:
-		</div>
 
-	</footer>
+			<Link to="/">
+				<p>Home</p>
+			</Link>
+	Value
+	Traditional
+	Legendary
+	Deals
+	
+	Our Menu:
+	Value
+	Traditional
+	Legendary
+	Desserts
+	Drinks
+	
+	Giving Back: 
+	First company name
+	2nd company name
+	3rd company
+	Featured article
+	
+	Contact us:
+	
+	
+	
+	Facebook: 
+	https://www.facebook.com/eaglepizzasbendigo/
+	
+	
+	
+			
+
+	</div>
 );
 
 export default Footer;

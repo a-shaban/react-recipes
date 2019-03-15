@@ -1,5 +1,4 @@
 import React from 'react';
-import Tabs from './Tabs';
 import Value from './Product-Tabs/Value';
 import Traditional from './Product-Tabs/Traditional';
 import Legendary from './Product-Tabs/Legendary';
@@ -8,28 +7,8 @@ import Deals from './Product-Tabs/Deals';
 
 
 const Favorites = () => (
-
   <div>
-    <Tabs>
-      <div label="Value">
-        <Value />
-      </div>
-      <div label="Traditional">
-        <Traditional />
-      </div>
-      <div label="Legendary">
-        <Legendary />
-      </div>
-      <div label="Deals">
-        <Deals />
-      </div>
-      <div label="View All">
-        <Deals />
-        <Value />
-        <Traditional />
-        <Legendary />
-      </div>
-    </Tabs>
+      <Value />
   </div>
 
 

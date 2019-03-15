@@ -5,13 +5,11 @@ import Traditional from './Product-Tabs/Traditional';
 import Legendary from './Product-Tabs/Legendary';
 import ViewAll from './Product-Tabs/ViewAll';
 import Deals from './Product-Tabs/Deals';
-import Header from './Header';
 
 
 const Favorites = () => (
 
   <div>
-    <Header />
     <Tabs>
       <div label="Value">
         <Value />

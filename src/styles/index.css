@@ -108,3 +108,42 @@ h1, h2, h3, h4, h5, h6 {
   border: solid #ccc;
   border-width: 1px 1px 0 1px;
 }
+
+.my-header {
+   background-color:#242424;
+}
+
+.my-header-pic {
+   height: 2%;
+   width: 60%;
+   display: block;
+   margin: auto;
+   padding-bottom: 1%; 
+
+}
+
+.our-navbar {
+   padding-left: 10%;
+   padding-right: 10%;
+   background-color: #cc7500;
+}
+
+.navbar-item {
+   display: inline-flex;
+   flex: 1;
+}
+
+.navbar-item :hover {
+   background-color: #e29503;
+}
+
+.navbar-text {
+   text-align: center;
+   display: block;
+   margin: auto;
+   color: white;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   padding-right: 0.5rem;
+   padding-left: 0.5rem;
+}

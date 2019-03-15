@@ -5,16 +5,18 @@ import HomePage from './HomePage';
 import Products from './Products';
 import Footer from './Footer';
 import GivingBack from './GivingBack'
+import NavBar from './NavBar';
+import Header from './Header2';
 
 const App = () => (
   <BrowserRouter>
     <main>
-      <Switch>
-        <Route exact={true} path="/" component={HomePage} />
-        <Route exact={true}  path="/products" component={Products} />
-        <Route exact={true}  path="/giving-back" component={GivingBack} />
-      </Switch>
-      
+      <Header />
+      <NavBar />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/products" component={Products} />
+      <Route path="/favorites" component={Favorites} />
+      <Route path="/giving-back" component={GivingBack} />
       <Footer />
     </main>
   </BrowserRouter>

@@ -6,6 +6,7 @@ import Footer from './Footer';
 import GivingBack from './GivingBack'
 import NavBar from './NavBar';
 import Header from './Header';
+import AboutUs from './AboutUs';
 
 const App = () => (
   <BrowserRouter>
@@ -15,6 +16,7 @@ const App = () => (
       <Route exact path="/" component={HomePage} />
       <Route exact path="/products" component={Products} />
       <Route path="/giving-back" component={GivingBack} />
+      <Route path="/aboutus" component={AboutUs} />
       <Footer />
     </main>
   </BrowserRouter>

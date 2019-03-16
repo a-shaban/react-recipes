@@ -3,51 +3,33 @@ import { Link } from 'react-router-dom';
 
 
 const Footer = () => (
-	<div>
+	<div className="footer-container">
 		<div className="news-letter">
 			<form>
-				<label htmlFor="search">Search</label>
-				<input id="search" type="text" className="field"></input>
-				<button className="btn btn-primary">Go</button>
+				<label htmlFor="search">
+					<p className="newsletter-text white"> Sign Up For Our Newsletter </p> 
+				</label>
+				<div className="search-field">
+					<input 
+						id="search" 
+						type="text" 
+						className="field email-input newsletter-input-box fit"
+						placeholder="Enter Email Address">
+						</input>
+					<button className="  newsletter-input-btn">
+						<p className="white  fit">Go</p>
+					</button>
+				</div>
 			</form>
 		</div>
 		<div className="footer-links">
-
-		</div>
-
-
 			<Link to="/">
 				<p>Home</p>
 			</Link>
-	Value
-	Traditional
-	Legendary
-	Deals
-	
-	Our Menu:
-	Value
-	Traditional
-	Legendary
-	Desserts
-	Drinks
-	
-	Giving Back: 
-	First company name
-	2nd company name
-	3rd company
-	Featured article
-	
-	Contact us:
-	
-	
-	
-	Facebook: 
-	https://www.facebook.com/eaglepizzasbendigo/
-	
-	
-	
-			
+		</div>
+		<div className="social-links">
 
+		</div>
 	</div>
 );
 

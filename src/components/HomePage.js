@@ -8,7 +8,6 @@ import Sides from './Sides';
 
 const HomePage = () => (
   <div>
-    
     <div className="abcd">
       <div className="pb4 px4">
         OUR MENU

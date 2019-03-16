@@ -6,6 +6,7 @@
 @import "./shame";
 @import "./navbar.css";
 @import "./header.css";
+@import "./aboutus.css";
 
 :root {
    --h1:70px;
@@ -16,7 +17,6 @@
 
 * {
    margin: 0px;
-   color: var(--black);
    font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,7 +56,9 @@ h1, h2, h3, h4, h5, h6 {
    flex: 1;
 }
 
-
-
+body{
+   background-color: black;
+   color: #fefefecc;
+}
 
 

@@ -4,10 +4,12 @@
 @import "./borders";
 @import "./fonts";
 @import "./shame";
-@import "./navbar.css";
-@import "./header.css";
-@import "./footer.css";
-@import "./aboutus.css";
+@import "./navbar";
+@import "./header";
+@import "./footer";
+@import "./aboutus";
+@import "home-page";
+
 :root {
    --h1:70px;
    --h2:50px;
@@ -24,25 +26,12 @@ h1, h2, h3, h4, h5, h6 {
    margin: 0.4em 0px;
    font-family: 'Oswald', sans-serif;
 }
-.pic-container{
-   padding:1px;
-   display: flex;
-   flex-wrap: wrap;
-}
-
-.menu-pics{
-   padding: 3%;
-   flex: 1;
-   min-width: 20rem;
-}
 
 .givingback-header
 {
    display: flex;
    flex-wrap: wrap;
 }
-
-
 
 .sides{
    display: flex;

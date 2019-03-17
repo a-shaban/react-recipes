@@ -9,6 +9,8 @@ import Deals from './Product-Tabs/Deals';
 const Favorites = () => (
   <div>
       <Value />
+    <hr />
+    <br />
   </div>
 
 

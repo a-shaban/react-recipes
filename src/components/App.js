@@ -13,10 +13,12 @@ const App = () => (
     <main>
       <Header />
       <NavBar />
-      <Route exact path="/" component={HomePage} />
-      <Route exact path="/products" component={Products} />
-      <Route path="/giving-back" component={GivingBack} />
-      <Route path="/aboutus" component={AboutUs} />
+      <div className="p3">
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/products" component={Products} />
+        <Route path="/giving-back" component={GivingBack} />
+        <Route path="/aboutus" component={AboutUs} />
+      </div>
       <Footer />
     </main>
   </BrowserRouter>

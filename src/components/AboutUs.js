@@ -1,10 +1,10 @@
 import React from 'react';
-import pic1 from '../static/images/pic1.jpg';
-import pic2 from '../static/images/pic2.jpg';
-import pic3 from '../static/images/pic3.jpg';
-import pic4 from '../static/images/pic4.jpg';
-import pic5 from '../static/images/pic5.jpg';
-import pic6 from '../static/images/pic6.jpg';
+import pic1 from '../static/images/about-us/pic-1.jpg';
+import pic2 from '../static/images/about-us/pic-2.jpg';
+import pic3 from '../static/images/about-us/pic-3.jpg';
+import pic4 from '../static/images/about-us/pic-4.jpg';
+import pic5 from '../static/images/about-us/pic-5.jpg';
+import pic6 from '../static/images/about-us/pic-6.jpg';
 
 
 const AboutUs = () => (

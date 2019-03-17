@@ -1,11 +1,12 @@
 .our-navbar {
-   padding-left: 10%;
-   padding-right: 10%;
+   padding-left: 5%;
+   padding-right: 5%;
    background-color: #cc7500;
 }
 
 .navbar-item {
-   display: inline-flex;
+   align-items: center;
+   justify-content: center;
    flex: 1;
 }
 
@@ -14,7 +15,6 @@
 }
 
 .navbar-text {
-   text-align: center;
    display: block;
    margin: auto;
    color: white;
@@ -23,3 +23,41 @@
    padding-right: 0.5rem;
    padding-left: 0.5rem;
 }
+
+.order-now {
+   color: white;
+   background-color: #cc7500;
+   width: 100%;
+   border-radius: 10%;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}

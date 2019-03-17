@@ -1,0 +1,68 @@
+.menu-pics{
+   padding: 1.5%;
+   flex: 1;
+   min-width: 20rem;
+   height: 15rem;
+}
+
+.pic-container{
+   padding:1px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.deal-images {
+   padding-top: 2%;
+   height: 28rem;
+}
+
+.slide-desc {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 30rem;
+   padding: 5%;
+}
+
+.main-btns {
+   margin-bottom: 10%;
+}
+
+.homepage-btns {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.button-element {
+   padding: 2%;
+   border-color: #cc7500;
+   border-radius: 10%;
+}
+
+.btn-color {
+   background-color: black;
+   font-size: 2rem;
+}
+
+.view-btn-color {
+   margin-top: 2%;
+   background-color: #cc7500;
+   font-size: 1.7rem;
+}
+
+.button-element :hover {
+   /* background-color: #e29503; */
+}
+
+.btn-text {
+   color: white;
+}
+
+.slideshow-container {
+   padding: 3%;
+}
+
+.our-selection-header {
+   color: #cc7500;
+}

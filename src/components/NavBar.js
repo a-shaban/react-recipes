@@ -34,7 +34,7 @@ const NavBar = () => (
       </Link>
     </div>
     <div className="navbar-item">
-      <Link to="/">
+      <Link to="/contactus">
         <p className="center navbar-text" >CONTACT US</p>
       </Link>
     </div>

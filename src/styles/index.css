@@ -8,7 +8,9 @@
 @import "./header";
 @import "./footer";
 @import "./aboutus";
+@import "./contactus";
 @import "home-page";
+@import "./maps.css";
 
 :root {
    --h1:70px;
@@ -17,10 +19,6 @@
    --lime: #eef0ef;
 }
 
-* {
-   margin: 0px;
-   font-family: 'Saira', sans-serif;
-}
 
 h1, h2, h3, h4, h5, h6 {
    margin: 0.4em 0px;

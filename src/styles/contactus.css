@@ -1,0 +1,61 @@
+hr{
+   border-color: #e29503;
+   width: 96%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 0%;
+}
+.contactusheading {
+   text-align: center;
+}
+.contactusbutton{
+   background-color: black;
+   color: #cfbabacc;
+   border-color: #dacacacc;
+   width: 10%;
+   border-radius: 5px;
+}
+.contactustext {
+   background-color: black;
+   color: #cfbabacc;
+   border-color: #dacacacc;
+   width: 70%;
+   margin-top: 1%;
+   border-radius: 5px;
+}
+.contactusinfo{
+   display: flex;
+   flex-grow: 1;
+   padding: 5%;
+}
+.contactusdata{
+   width: 1100%;
+   margin-right: 10%;
+}
+.contactusform {
+   width: 500%;
+   padding-top: 30%;
+   margin-left: 250%;
+}
+.contactusmap{
+   height: 80%;
+}
+.container{
+   height: 100%;
+}
+
+.mapDiv{
+}
+.contactusicons{
+   display: flex;
+   margin-left: 20%;
+   padding-right: 20%;
+   width: 120%;
+}
+.contactusimage{
+   margin-right: 40%;
+   float:left;
+}
+.contactusicontext{
+   float:right;
+}

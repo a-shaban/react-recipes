@@ -7,6 +7,7 @@ import GivingBack from './GivingBack'
 import NavBar from './NavBar';
 import Header from './Header';
 import AboutUs from './AboutUs';
+import ContactUs from './ContactUs';
 
 const App = () => (
   <BrowserRouter>
@@ -18,6 +19,7 @@ const App = () => (
         <Route exact path="/products" component={Products} />
         <Route path="/giving-back" component={GivingBack} />
         <Route path="/aboutus" component={AboutUs} />
+        <Route path="/contactus" component={ContactUs} />
       </div>
       <Footer />
     </main>

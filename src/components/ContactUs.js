@@ -13,7 +13,7 @@ const AboutUs = () => (
     </div>
     <br/>
     <div className = "contactusinfo">
-      <div classname ="contactusdata">
+      <div className ="contactusdata">
         <div className = "contactusicons">
           <img className = "contactusimage" alt={location} src={location} />
           <label className = "contactusicontext">

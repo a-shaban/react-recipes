@@ -6,7 +6,10 @@
    padding-bottom: 2%;
 }
 .about-us-pics{
-   width: 100%;
+   /* text-align: center; */
+   display: block;
+   margin: auto;
+   width: 96%;
    padding-bottom: 5%;
 }
 .boundary{

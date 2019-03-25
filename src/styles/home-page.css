@@ -1,5 +1,5 @@
 .menu-pics{
-   padding: 1.5%;
+   padding: 3%;
    flex: 1;
    min-width: 20rem;
    height: 15rem;
@@ -22,6 +22,7 @@
    justify-content: center;
    height: 30rem;
    padding: 5%;
+   padding-right: 10%;
 }
 
 .main-btns {
@@ -35,25 +36,24 @@
 }
 
 .button-element {
-   padding: 2%;
+   padding: 1%;
+   padding-right: 4%;
+   padding-left: 4%;
+   margin-bottom: 5%;
    border-color: #cc7500;
    border-radius: 10%;
 }
 
 .btn-color {
    background-color: black;
-   font-size: 2rem;
+   font-size: 1.5rem;
+   margin-top: 5%;
 }
 
-.view-btn-color {
-   margin-top: 2%;
-   background-color: #cc7500;
-   font-size: 1.7rem;
-}
 
-.button-element :hover {
-   /* background-color: #e29503; */
-}
+/* .button-element :hover {
+   background-color: #e29503;
+} */
 
 .btn-text {
    color: white;

@@ -1,0 +1,23 @@
+.menu-header {
+  padding-left: 2%;
+}
+
+.product-container {
+  padding-left: 1%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  flex: 1;
+}
+
+.product-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex: 2;
+}
+

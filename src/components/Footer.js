@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../static/images/logo.png'
+import Logo from '../static/images/logo.png';
+import fblogo from '../static/images/contactus-icons/facebook-logo.png';
 
 
 const Footer = () => (
 	<div className="footer-container">
+		<hr />
+		<br />
 		{/* <div className="news-letter">
 			<form>
 				<label htmlFor="search">
@@ -23,24 +26,32 @@ const Footer = () => (
 				</div>
 			</form>
 		</div> */}
-		<div className="p0 center">
+		<div className="center">
 		<img className="footer-logo" alt={Logo} src={Logo}></img>
 		</div>
 
 		<div className="footer-links">
 
 				<div className="center sm-col sm-col-4">
-						<h3 className="">Operating Hours</h3>
+						<h2 className="">Operating Hours</h2>
 						<div>
-							<p className="footer-links-text">1</p>
-							<p className="footer-links-text">2</p>
-							<p className="footer-links-text">3</p>
-							<p className="footer-links-text">4</p>
+							<p className="footer-links-text">
+								Sunday - Monday: 11am - 10pm
+							</p>
+							<p className="footer-links-text">
+								Tuesday - Thursday: 11am - 11pm
+							</p>
+							<p className="footer-links-text">
+								Friday - Saturday: 11am - 12am
+							</p>
+							<p className="footer-links-text">
+								Public Holidays: 4pm - 9pm
+							</p>
 						</div>
 					</div>
 
 					<div className="center sm-col sm-col-4">
-					<h3 className="">Quick Links</h3>
+					<h2 className="">Quick Links</h2>
 						<div>
 							<Link to="/">
 								<p className="footer-links-text">Home</p>
@@ -61,12 +72,18 @@ const Footer = () => (
 					</div>
 
 					<div className="center sm-col sm-col-4">
-						<h3 className="">Contact Info</h3>
+						<h2 className="">Contact Info</h2>
 						<div>
-							<p className="footer-links-text">1</p>
-							<p className="footer-links-text">2</p>
-							<p className="footer-links-text">3</p>
-							<p className="footer-links-text">Facebook logo here</p>
+							<p className="footer-links-text">
+								Address: 91-97 MCIVOR RD,
+							</p>
+							<p className="footer-links-text">
+								Bendigo, VIC, 3550
+							</p>
+							<p className="footer-links-text">
+								Phone Number: 5444 5551
+							</p>
+							<img className = "footer-fb-logo" alt={fblogo} src={fblogo} />
 						</div>
 					</div>
 

@@ -1,9 +1,8 @@
 .footer-container {
-  height: 20rem;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   background-color:#242424;
-  padding-bottom: 20%;
 }
 
 .news-letter {
@@ -48,7 +47,7 @@
    margin: auto;
    color: white;
    font-size: 1rem;
-   padding: 4%;
+   padding: 1%;
 }
 
 .email-input {
@@ -59,11 +58,15 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 15%;
+  width:10%;
 }
 
 .footer-btm {
   display: block;
   width: 100%;
   text-align: center;
+}
+
+.footer-fb-logo {
+  height: 2rem;
 }

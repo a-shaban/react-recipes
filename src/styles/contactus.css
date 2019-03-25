@@ -41,8 +41,9 @@ hr{
 .container{
    height: 100%;
 }
-
 .mapDiv{
+   margin-bottom:30%;
+   display: block;
 }
 .contactusicons{
    display: flex;

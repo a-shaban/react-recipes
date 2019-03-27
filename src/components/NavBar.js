@@ -35,7 +35,7 @@ const NavBar = () => (
             <a>Deal</a>
           </Link>
 
-          <Link className="dropdown-links" to="/">
+          <Link className="dropdown-links" to="/sides">
             <a>Sides</a>
           </Link>
 

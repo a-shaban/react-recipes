@@ -640,7 +640,7 @@ var _App = __webpack_require__(15);
 
 var _App2 = _interopRequireDefault(_App);
 
-__webpack_require__(177);
+__webpack_require__(172);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24108,45 +24108,45 @@ var _HomePage = __webpack_require__(60);
 
 var _HomePage2 = _interopRequireDefault(_HomePage);
 
-var _Products = __webpack_require__(91);
-
-var _Products2 = _interopRequireDefault(_Products);
-
-var _Footer = __webpack_require__(104);
+var _Footer = __webpack_require__(91);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _GivingBack = __webpack_require__(107);
+var _GivingBack = __webpack_require__(94);
 
 var _GivingBack2 = _interopRequireDefault(_GivingBack);
 
-var _NavBar = __webpack_require__(108);
+var _NavBar = __webpack_require__(95);
 
 var _NavBar2 = _interopRequireDefault(_NavBar);
 
-var _Header = __webpack_require__(109);
+var _Header = __webpack_require__(96);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _AboutUs = __webpack_require__(111);
+var _AboutUs = __webpack_require__(98);
 
 var _AboutUs2 = _interopRequireDefault(_AboutUs);
 
-var _ContactUs = __webpack_require__(118);
+var _ContactUs = __webpack_require__(105);
 
 var _ContactUs2 = _interopRequireDefault(_ContactUs);
 
-var _Value = __webpack_require__(150);
+var _Value = __webpack_require__(137);
 
 var _Value2 = _interopRequireDefault(_Value);
 
-var _Legendary = __webpack_require__(153);
+var _Legendary = __webpack_require__(140);
 
 var _Legendary2 = _interopRequireDefault(_Legendary);
 
-var _Traditional = __webpack_require__(160);
+var _Traditional = __webpack_require__(147);
 
 var _Traditional2 = _interopRequireDefault(_Traditional);
+
+var _Sides = __webpack_require__(164);
+
+var _Sides2 = _interopRequireDefault(_Sides);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24163,13 +24163,13 @@ var App = function App() {
         'div',
         { className: 'p3' },
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _HomePage2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/products', component: _Products2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/giving-back', component: _GivingBack2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/aboutus', component: _AboutUs2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/contactus', component: _ContactUs2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/value-pizzas', component: _Value2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/traditional-pizzas', component: _Traditional2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/legendary-pizzas', component: _Legendary2.default })
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/legendary-pizzas', component: _Legendary2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/sides', component: _Sides2.default })
       ),
       _react2.default.createElement(_Footer2.default, null)
     )
@@ -32287,447 +32287,6 @@ module.exports = __webpack_require__.p + "156328a0f14cc49b6c16cf20d28f74eb.jpg";
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _Value = __webpack_require__(92);
-
-var _Value2 = _interopRequireDefault(_Value);
-
-var _Traditional = __webpack_require__(100);
-
-var _Traditional2 = _interopRequireDefault(_Traditional);
-
-var _Legendary = __webpack_require__(101);
-
-var _Legendary2 = _interopRequireDefault(_Legendary);
-
-var _ViewAll = __webpack_require__(102);
-
-var _ViewAll2 = _interopRequireDefault(_ViewAll);
-
-var _Deals = __webpack_require__(103);
-
-var _Deals2 = _interopRequireDefault(_Deals);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Favorites = function Favorites() {
-  return _react2.default.createElement(
-    'div',
-    null,
-    _react2.default.createElement(_Value2.default, null),
-    _react2.default.createElement('hr', null),
-    _react2.default.createElement('br', null)
-  );
-};
-
-exports.default = Favorites;
-
-/***/ }),
-/* 92 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _chickenTortellini = __webpack_require__(93);
-
-var _chickenTortellini2 = _interopRequireDefault(_chickenTortellini);
-
-var _lasagne = __webpack_require__(94);
-
-var _lasagne2 = _interopRequireDefault(_lasagne);
-
-var _porkRibs = __webpack_require__(95);
-
-var _porkRibs2 = _interopRequireDefault(_porkRibs);
-
-var _spaghettiBolognaise = __webpack_require__(96);
-
-var _spaghettiBolognaise2 = _interopRequireDefault(_spaghettiBolognaise);
-
-var _vegetableLasagne = __webpack_require__(97);
-
-var _vegetableLasagne2 = _interopRequireDefault(_vegetableLasagne);
-
-var _wings = __webpack_require__(98);
-
-var _wings2 = _interopRequireDefault(_wings);
-
-var _wings3 = __webpack_require__(99);
-
-var _wings4 = _interopRequireDefault(_wings3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Sides = function Sides() {
-  return _react2.default.createElement(
-    'div',
-    { className: 'pb4 px4' },
-    _react2.default.createElement(
-      'p',
-      null,
-      'OUR SIDES'
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'sides' },
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _chickenTortellini2.default, src: _chickenTortellini2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _lasagne2.default, src: _lasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _porkRibs2.default, src: _porkRibs2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _spaghettiBolognaise2.default, src: _spaghettiBolognaise2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _vegetableLasagne2.default, src: _vegetableLasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings2.default, src: _wings2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings4.default, src: _wings4.default })
-    )
-  );
-};
-
-exports.default = Sides;
-
-/***/ }),
-/* 93 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "ac4ecf93b0a5aafc34951f1dd68b7249.jpg";
-
-/***/ }),
-/* 94 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "0ec3c545777a5cba936e5e45089d14a3.jpg";
-
-/***/ }),
-/* 95 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "4ad568e7088b568611d87690f7f24be5.jpg";
-
-/***/ }),
-/* 96 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "046517de5f7a57ae7059ade05d86b945.jpg";
-
-/***/ }),
-/* 97 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "00712a97567caf8037d1a2ebd9c7e093.jpg";
-
-/***/ }),
-/* 98 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "f50f5223e062959957ef1fa38d53a909.jpg";
-
-/***/ }),
-/* 99 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "3656f00333d64cb81d6b3120e4bffa81.jpg";
-
-/***/ }),
-/* 100 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _chickenTortellini = __webpack_require__(93);
-
-var _chickenTortellini2 = _interopRequireDefault(_chickenTortellini);
-
-var _lasagne = __webpack_require__(94);
-
-var _lasagne2 = _interopRequireDefault(_lasagne);
-
-var _porkRibs = __webpack_require__(95);
-
-var _porkRibs2 = _interopRequireDefault(_porkRibs);
-
-var _spaghettiBolognaise = __webpack_require__(96);
-
-var _spaghettiBolognaise2 = _interopRequireDefault(_spaghettiBolognaise);
-
-var _vegetableLasagne = __webpack_require__(97);
-
-var _vegetableLasagne2 = _interopRequireDefault(_vegetableLasagne);
-
-var _wings = __webpack_require__(98);
-
-var _wings2 = _interopRequireDefault(_wings);
-
-var _wings3 = __webpack_require__(99);
-
-var _wings4 = _interopRequireDefault(_wings3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Sides = function Sides() {
-  return _react2.default.createElement(
-    'div',
-    { className: 'pb4 px4' },
-    _react2.default.createElement(
-      'p',
-      null,
-      'OUR SIDES'
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'sides' },
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _chickenTortellini2.default, src: _chickenTortellini2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _lasagne2.default, src: _lasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _porkRibs2.default, src: _porkRibs2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _spaghettiBolognaise2.default, src: _spaghettiBolognaise2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _vegetableLasagne2.default, src: _vegetableLasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings2.default, src: _wings2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings4.default, src: _wings4.default })
-    )
-  );
-};
-
-exports.default = Sides;
-
-/***/ }),
-/* 101 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _chickenTortellini = __webpack_require__(93);
-
-var _chickenTortellini2 = _interopRequireDefault(_chickenTortellini);
-
-var _lasagne = __webpack_require__(94);
-
-var _lasagne2 = _interopRequireDefault(_lasagne);
-
-var _porkRibs = __webpack_require__(95);
-
-var _porkRibs2 = _interopRequireDefault(_porkRibs);
-
-var _spaghettiBolognaise = __webpack_require__(96);
-
-var _spaghettiBolognaise2 = _interopRequireDefault(_spaghettiBolognaise);
-
-var _vegetableLasagne = __webpack_require__(97);
-
-var _vegetableLasagne2 = _interopRequireDefault(_vegetableLasagne);
-
-var _wings = __webpack_require__(98);
-
-var _wings2 = _interopRequireDefault(_wings);
-
-var _wings3 = __webpack_require__(99);
-
-var _wings4 = _interopRequireDefault(_wings3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Sides = function Sides() {
-  return _react2.default.createElement(
-    'div',
-    { className: 'pb4 px4' },
-    _react2.default.createElement(
-      'p',
-      null,
-      'OUR SIDES'
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'sides' },
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _chickenTortellini2.default, src: _chickenTortellini2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _lasagne2.default, src: _lasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _porkRibs2.default, src: _porkRibs2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _spaghettiBolognaise2.default, src: _spaghettiBolognaise2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _vegetableLasagne2.default, src: _vegetableLasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings2.default, src: _wings2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings4.default, src: _wings4.default })
-    )
-  );
-};
-
-exports.default = Sides;
-
-/***/ }),
-/* 102 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _chickenTortellini = __webpack_require__(93);
-
-var _chickenTortellini2 = _interopRequireDefault(_chickenTortellini);
-
-var _lasagne = __webpack_require__(94);
-
-var _lasagne2 = _interopRequireDefault(_lasagne);
-
-var _porkRibs = __webpack_require__(95);
-
-var _porkRibs2 = _interopRequireDefault(_porkRibs);
-
-var _spaghettiBolognaise = __webpack_require__(96);
-
-var _spaghettiBolognaise2 = _interopRequireDefault(_spaghettiBolognaise);
-
-var _vegetableLasagne = __webpack_require__(97);
-
-var _vegetableLasagne2 = _interopRequireDefault(_vegetableLasagne);
-
-var _wings = __webpack_require__(98);
-
-var _wings2 = _interopRequireDefault(_wings);
-
-var _wings3 = __webpack_require__(99);
-
-var _wings4 = _interopRequireDefault(_wings3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Sides = function Sides() {
-  return _react2.default.createElement(
-    'div',
-    { className: 'pb4 px4' },
-    _react2.default.createElement(
-      'p',
-      null,
-      'OUR SIDES'
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'sides' },
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _chickenTortellini2.default, src: _chickenTortellini2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _lasagne2.default, src: _lasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _porkRibs2.default, src: _porkRibs2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _spaghettiBolognaise2.default, src: _spaghettiBolognaise2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _vegetableLasagne2.default, src: _vegetableLasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings2.default, src: _wings2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings4.default, src: _wings4.default })
-    )
-  );
-};
-
-exports.default = Sides;
-
-/***/ }),
-/* 103 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _chickenTortellini = __webpack_require__(93);
-
-var _chickenTortellini2 = _interopRequireDefault(_chickenTortellini);
-
-var _lasagne = __webpack_require__(94);
-
-var _lasagne2 = _interopRequireDefault(_lasagne);
-
-var _porkRibs = __webpack_require__(95);
-
-var _porkRibs2 = _interopRequireDefault(_porkRibs);
-
-var _spaghettiBolognaise = __webpack_require__(96);
-
-var _spaghettiBolognaise2 = _interopRequireDefault(_spaghettiBolognaise);
-
-var _vegetableLasagne = __webpack_require__(97);
-
-var _vegetableLasagne2 = _interopRequireDefault(_vegetableLasagne);
-
-var _wings = __webpack_require__(98);
-
-var _wings2 = _interopRequireDefault(_wings);
-
-var _wings3 = __webpack_require__(99);
-
-var _wings4 = _interopRequireDefault(_wings3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Sides = function Sides() {
-  return _react2.default.createElement(
-    'div',
-    { className: 'pb4 px4' },
-    _react2.default.createElement(
-      'p',
-      null,
-      'OUR SIDES'
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'sides' },
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _chickenTortellini2.default, src: _chickenTortellini2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _lasagne2.default, src: _lasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _porkRibs2.default, src: _porkRibs2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _spaghettiBolognaise2.default, src: _spaghettiBolognaise2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _vegetableLasagne2.default, src: _vegetableLasagne2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings2.default, src: _wings2.default }),
-      _react2.default.createElement('img', { className: 'sides-pics', alt: _wings4.default, src: _wings4.default })
-    )
-  );
-};
-
-exports.default = Sides;
-
-/***/ }),
-/* 104 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
@@ -32737,11 +32296,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(16);
 
-var _logo = __webpack_require__(105);
+var _logo = __webpack_require__(92);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _facebookLogo = __webpack_require__(106);
+var _facebookLogo = __webpack_require__(93);
 
 var _facebookLogo2 = _interopRequireDefault(_facebookLogo);
 
@@ -32899,19 +32458,19 @@ var Footer = function Footer() {
 exports.default = Footer;
 
 /***/ }),
-/* 105 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "8524fc7ce6db6519f8052d55843a53ee.png";
 
 /***/ }),
-/* 106 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "7cae5a62d3f2a2e113e48b9a3fb13171.png";
 
 /***/ }),
-/* 107 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32938,7 +32497,7 @@ var GivingBack = function GivingBack() {
 exports.default = GivingBack;
 
 /***/ }),
-/* 108 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33026,7 +32585,7 @@ var NavBar = function NavBar() {
         ),
         _react2.default.createElement(
           _reactRouterDom.Link,
-          { className: 'dropdown-links', to: '/' },
+          { className: 'dropdown-links', to: '/sides' },
           _react2.default.createElement(
             'a',
             null,
@@ -33093,7 +32652,7 @@ var NavBar = function NavBar() {
 exports.default = NavBar;
 
 /***/ }),
-/* 109 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33107,7 +32666,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _EPBanner = __webpack_require__(110);
+var _EPBanner = __webpack_require__(97);
 
 var _EPBanner2 = _interopRequireDefault(_EPBanner);
 
@@ -33128,13 +32687,13 @@ var Header = function Header() {
 exports.default = Header;
 
 /***/ }),
-/* 110 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "351965c7c48b55464a8c68b21409f1c0.png";
 
 /***/ }),
-/* 111 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33148,27 +32707,27 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _pic = __webpack_require__(112);
+var _pic = __webpack_require__(99);
 
 var _pic2 = _interopRequireDefault(_pic);
 
-var _pic3 = __webpack_require__(113);
+var _pic3 = __webpack_require__(100);
 
 var _pic4 = _interopRequireDefault(_pic3);
 
-var _pic5 = __webpack_require__(114);
+var _pic5 = __webpack_require__(101);
 
 var _pic6 = _interopRequireDefault(_pic5);
 
-var _pic7 = __webpack_require__(115);
+var _pic7 = __webpack_require__(102);
 
 var _pic8 = _interopRequireDefault(_pic7);
 
-var _pic9 = __webpack_require__(116);
+var _pic9 = __webpack_require__(103);
 
 var _pic10 = _interopRequireDefault(_pic9);
 
-var _pic11 = __webpack_require__(117);
+var _pic11 = __webpack_require__(104);
 
 var _pic12 = _interopRequireDefault(_pic11);
 
@@ -33211,43 +32770,43 @@ var AboutUs = function AboutUs() {
 exports.default = AboutUs;
 
 /***/ }),
-/* 112 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "53a7985441f731a1dafe647448198fe8.jpg";
 
 /***/ }),
-/* 113 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "b05436a696f428cf6e2bd1b15ba529be.jpg";
 
 /***/ }),
-/* 114 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "17d6642d5f5562ba65bfa4ae4105356f.jpg";
 
 /***/ }),
-/* 115 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "39ac1b8e2377eb80790b681cef36f101.jpg";
 
 /***/ }),
-/* 116 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2348a93415835fb0c448708699692c80.jpg";
 
 /***/ }),
-/* 117 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "785292affbac56b210d59fab8edc8dea.jpg";
 
 /***/ }),
-/* 118 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33261,23 +32820,23 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Map = __webpack_require__(119);
+var _Map = __webpack_require__(106);
 
 var _Map2 = _interopRequireDefault(_Map);
 
-var _location = __webpack_require__(147);
+var _location = __webpack_require__(134);
 
 var _location2 = _interopRequireDefault(_location);
 
-var _phoneCall = __webpack_require__(148);
+var _phoneCall = __webpack_require__(135);
 
 var _phoneCall2 = _interopRequireDefault(_phoneCall);
 
-var _message = __webpack_require__(149);
+var _message = __webpack_require__(136);
 
 var _message2 = _interopRequireDefault(_message);
 
-var _facebookLogo = __webpack_require__(106);
+var _facebookLogo = __webpack_require__(93);
 
 var _facebookLogo2 = _interopRequireDefault(_facebookLogo);
 
@@ -33411,7 +32970,7 @@ var AboutUs = function AboutUs() {
 exports.default = AboutUs;
 
 /***/ }),
-/* 119 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33427,7 +32986,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _googleMapReact = __webpack_require__(120);
+var _googleMapReact = __webpack_require__(107);
 
 var _googleMapReact2 = _interopRequireDefault(_googleMapReact);
 
@@ -33491,7 +33050,7 @@ Map.defaultProps = {
 exports.default = Map;
 
 /***/ }),
-/* 120 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33500,7 +33059,7 @@ exports.default = Map;
 exports.__esModule = true;
 exports.default = undefined;
 
-var _google_map = __webpack_require__(121);
+var _google_map = __webpack_require__(108);
 
 var _google_map2 = _interopRequireDefault(_google_map);
 
@@ -33509,7 +33068,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _google_map2.default;
 
 /***/ }),
-/* 121 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33533,77 +33092,77 @@ var _reactDom = __webpack_require__(8);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _google_map_map = __webpack_require__(122);
+var _google_map_map = __webpack_require__(109);
 
 var _google_map_map2 = _interopRequireDefault(_google_map_map);
 
-var _marker_dispatcher = __webpack_require__(123);
+var _marker_dispatcher = __webpack_require__(110);
 
 var _marker_dispatcher2 = _interopRequireDefault(_marker_dispatcher);
 
-var _google_map_markers = __webpack_require__(125);
+var _google_map_markers = __webpack_require__(112);
 
 var _google_map_markers2 = _interopRequireDefault(_google_map_markers);
 
-var _google_map_markers_prerender = __webpack_require__(128);
+var _google_map_markers_prerender = __webpack_require__(115);
 
 var _google_map_markers_prerender2 = _interopRequireDefault(_google_map_markers_prerender);
 
-var _google_heatmap = __webpack_require__(129);
+var _google_heatmap = __webpack_require__(116);
 
-var _google_map_loader = __webpack_require__(130);
+var _google_map_loader = __webpack_require__(117);
 
 var _google_map_loader2 = _interopRequireDefault(_google_map_loader);
 
-var _geo = __webpack_require__(132);
+var _geo = __webpack_require__(119);
 
 var _geo2 = _interopRequireDefault(_geo);
 
-var _raf = __webpack_require__(137);
+var _raf = __webpack_require__(124);
 
 var _raf2 = _interopRequireDefault(_raf);
 
-var _pick = __webpack_require__(138);
+var _pick = __webpack_require__(125);
 
 var _pick2 = _interopRequireDefault(_pick);
 
-var _omit = __webpack_require__(126);
+var _omit = __webpack_require__(113);
 
 var _omit2 = _interopRequireDefault(_omit);
 
-var _log = __webpack_require__(139);
+var _log = __webpack_require__(126);
 
 var _log2 = _interopRequireDefault(_log);
 
-var _isEmpty = __webpack_require__(140);
+var _isEmpty = __webpack_require__(127);
 
 var _isEmpty2 = _interopRequireDefault(_isEmpty);
 
-var _isNumber = __webpack_require__(141);
+var _isNumber = __webpack_require__(128);
 
 var _isNumber2 = _interopRequireDefault(_isNumber);
 
-var _detect = __webpack_require__(142);
+var _detect = __webpack_require__(129);
 
 var _detect2 = _interopRequireDefault(_detect);
 
-var _shallowEqual = __webpack_require__(127);
+var _shallowEqual = __webpack_require__(114);
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
-var _isPlainObject = __webpack_require__(143);
+var _isPlainObject = __webpack_require__(130);
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
-var _isArraysEqualEps = __webpack_require__(144);
+var _isArraysEqualEps = __webpack_require__(131);
 
 var _isArraysEqualEps2 = _interopRequireDefault(_isArraysEqualEps);
 
-var _detectElementResize = __webpack_require__(145);
+var _detectElementResize = __webpack_require__(132);
 
 var _detectElementResize2 = _interopRequireDefault(_detectElementResize);
 
-var _passiveEvents = __webpack_require__(146);
+var _passiveEvents = __webpack_require__(133);
 
 var _passiveEvents2 = _interopRequireDefault(_passiveEvents);
 
@@ -34625,7 +34184,7 @@ GoogleMap.googleMapLoader = _google_map_loader2.default;
 exports.default = GoogleMap;
 
 /***/ }),
-/* 122 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34680,7 +34239,7 @@ var GoogleMapMap = function (_Component) {
 exports.default = GoogleMapMap;
 
 /***/ }),
-/* 123 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34688,7 +34247,7 @@ exports.default = GoogleMapMap;
 
 exports.__esModule = true;
 
-var _eventemitter = __webpack_require__(124);
+var _eventemitter = __webpack_require__(111);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
@@ -34735,7 +34294,7 @@ var MarkerDispatcher = function (_EventEmitter) {
 exports.default = MarkerDispatcher;
 
 /***/ }),
-/* 124 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35031,7 +34590,7 @@ if (true) {
 
 
 /***/ }),
-/* 125 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35049,11 +34608,11 @@ var _propTypes = __webpack_require__(19);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _omit = __webpack_require__(126);
+var _omit = __webpack_require__(113);
 
 var _omit2 = _interopRequireDefault(_omit);
 
-var _shallowEqual = __webpack_require__(127);
+var _shallowEqual = __webpack_require__(114);
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
@@ -35367,7 +34926,7 @@ GoogleMapMarkers.defaultProps = {
 exports.default = GoogleMapMarkers;
 
 /***/ }),
-/* 126 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35393,7 +34952,7 @@ var omit = function omit(obj, keys) {
 exports.default = omit;
 
 /***/ }),
-/* 127 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35466,7 +35025,7 @@ module.exports = shallowEqual;
 /* src: https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/core/shallowEqual.js */
 
 /***/ }),
-/* 128 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35488,7 +35047,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _google_map_markers = __webpack_require__(125);
+var _google_map_markers = __webpack_require__(112);
 
 var _google_map_markers2 = _interopRequireDefault(_google_map_markers);
 
@@ -35507,7 +35066,7 @@ var style = {
 };
 
 /***/ }),
-/* 129 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35541,7 +35100,7 @@ var optionsHeatmap = exports.optionsHeatmap = function optionsHeatmap(instance, 
 };
 
 /***/ }),
-/* 130 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35573,7 +35132,7 @@ var _customPromise = new Promise(function (resolve) {
 
 exports.default = function (bootstrapURLKeys, heatmapLibrary) {
   if (!$script_) {
-    $script_ = __webpack_require__(131); // eslint-disable-line
+    $script_ = __webpack_require__(118); // eslint-disable-line
   }
 
   // call from outside google-map-react
@@ -35633,7 +35192,7 @@ exports.default = function (bootstrapURLKeys, heatmapLibrary) {
 };
 
 /***/ }),
-/* 131 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -35767,7 +35326,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 132 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35777,15 +35336,15 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _pointGeometry = __webpack_require__(133);
+var _pointGeometry = __webpack_require__(120);
 
 var _pointGeometry2 = _interopRequireDefault(_pointGeometry);
 
-var _lat_lng = __webpack_require__(134);
+var _lat_lng = __webpack_require__(121);
 
 var _lat_lng2 = _interopRequireDefault(_lat_lng);
 
-var _transform = __webpack_require__(136);
+var _transform = __webpack_require__(123);
 
 var _transform2 = _interopRequireDefault(_transform);
 
@@ -35943,7 +35502,7 @@ var Geo = function () {
 exports.default = Geo;
 
 /***/ }),
-/* 133 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36262,7 +35821,7 @@ Point.convert = function (a) {
 
 
 /***/ }),
-/* 134 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36270,7 +35829,7 @@ Point.convert = function (a) {
 
 exports.__esModule = true;
 
-var _wrap2 = __webpack_require__(135);
+var _wrap2 = __webpack_require__(122);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -36311,7 +35870,7 @@ LatLng.convert = function (a) {
 exports.default = LatLng;
 
 /***/ }),
-/* 135 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36327,7 +35886,7 @@ function wrap(n, min, max) {
 }
 
 /***/ }),
-/* 136 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36338,15 +35897,15 @@ exports.__esModule = true;
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /* eslint-disable class-methods-use-this */
 
 
-var _pointGeometry = __webpack_require__(133);
+var _pointGeometry = __webpack_require__(120);
 
 var _pointGeometry2 = _interopRequireDefault(_pointGeometry);
 
-var _lat_lng = __webpack_require__(134);
+var _lat_lng = __webpack_require__(121);
 
 var _lat_lng2 = _interopRequireDefault(_lat_lng);
 
-var _wrap = __webpack_require__(135);
+var _wrap = __webpack_require__(122);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -36495,7 +36054,7 @@ var Transform = function () {
 exports.default = Transform;
 
 /***/ }),
-/* 137 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36514,7 +36073,7 @@ function raf(callback) {
 }
 
 /***/ }),
-/* 138 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36534,7 +36093,7 @@ function pick(obj, fn) {
 }
 
 /***/ }),
-/* 139 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36548,7 +36107,7 @@ var log2 = Math.log2 ? Math.log2 : function (x) {
 exports.default = log2;
 
 /***/ }),
-/* 140 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36574,7 +36133,7 @@ var isEmpty = function isEmpty(val) {
 exports.default = isEmpty;
 
 /***/ }),
-/* 141 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36597,7 +36156,7 @@ function isNumber(value) {
 }
 
 /***/ }),
-/* 142 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36651,7 +36210,7 @@ function detectBrowser() {
 }
 
 /***/ }),
-/* 143 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36688,7 +36247,7 @@ function isPlainObject(obj) {
 }
 
 /***/ }),
-/* 144 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36709,13 +36268,13 @@ function isArraysEqualEps(arrayA, arrayB, eps) {
 }
 
 /***/ }),
-/* 145 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _passiveEvents = __webpack_require__(146);
+var _passiveEvents = __webpack_require__(133);
 
 var _passiveEvents2 = _interopRequireDefault(_passiveEvents);
 
@@ -36895,7 +36454,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36932,25 +36491,25 @@ function addPassiveEventListener(element, eventName, func, capture) {
 }
 
 /***/ }),
-/* 147 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "657e923d61f0390419ff0c8e5cd75d0c.png";
 
 /***/ }),
-/* 148 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "806f62ca630690c227c16f97269a5c5e.png";
 
 /***/ }),
-/* 149 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "c2e987af5cf681bfad9224f131f13532.png";
 
 /***/ }),
-/* 150 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36964,11 +36523,11 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _cheeseLovers = __webpack_require__(151);
+var _cheeseLovers = __webpack_require__(138);
 
 var _cheeseLovers2 = _interopRequireDefault(_cheeseLovers);
 
-var _hamAndCheese = __webpack_require__(152);
+var _hamAndCheese = __webpack_require__(139);
 
 var _hamAndCheese2 = _interopRequireDefault(_hamAndCheese);
 
@@ -37027,19 +36586,19 @@ var Value = function Value() {
 exports.default = Value;
 
 /***/ }),
-/* 151 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "99164f92daa41ae72836baf5053c2c1f.jpg";
 
 /***/ }),
-/* 152 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "c5432d56c11edfa85825857136080db9.jpg";
 
 /***/ }),
-/* 153 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37053,27 +36612,27 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _clubChicken = __webpack_require__(154);
+var _clubChicken = __webpack_require__(141);
 
 var _clubChicken2 = _interopRequireDefault(_clubChicken);
 
-var _deluxeMeatLovers = __webpack_require__(155);
+var _deluxeMeatLovers = __webpack_require__(142);
 
 var _deluxeMeatLovers2 = _interopRequireDefault(_deluxeMeatLovers);
 
-var _gourmetVegetarien = __webpack_require__(156);
+var _gourmetVegetarien = __webpack_require__(143);
 
 var _gourmetVegetarien2 = _interopRequireDefault(_gourmetVegetarien);
 
-var _prawnsAndGarlicAioli = __webpack_require__(157);
+var _prawnsAndGarlicAioli = __webpack_require__(144);
 
 var _prawnsAndGarlicAioli2 = _interopRequireDefault(_prawnsAndGarlicAioli);
 
-var _tandoriChicken = __webpack_require__(158);
+var _tandoriChicken = __webpack_require__(145);
 
 var _tandoriChicken2 = _interopRequireDefault(_tandoriChicken);
 
-var _theWorks = __webpack_require__(159);
+var _theWorks = __webpack_require__(146);
 
 var _theWorks2 = _interopRequireDefault(_theWorks);
 
@@ -37204,43 +36763,43 @@ var Legendary = function Legendary() {
 exports.default = Legendary;
 
 /***/ }),
-/* 154 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "41bab37e6ccb657146148d708ff1e2ba.jpg";
 
 /***/ }),
-/* 155 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "a679c4f33aca3625c984ed4b9ff499f5.jpg";
 
 /***/ }),
-/* 156 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "81b66f77727814c9e55778427b7f1ffe.jpg";
 
 /***/ }),
-/* 157 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "82a3ff7354f34f4bb6ccd491ed293797.jpg";
 
 /***/ }),
-/* 158 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "8d6d86a24e9e70d33b5a41657ee09752.jpg";
 
 /***/ }),
-/* 159 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5edc0dc72917cef64ffae706fca1b3db.jpg";
 
 /***/ }),
-/* 160 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37254,67 +36813,67 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _american = __webpack_require__(161);
+var _american = __webpack_require__(148);
 
 var _american2 = _interopRequireDefault(_american);
 
-var _aussie = __webpack_require__(162);
+var _aussie = __webpack_require__(149);
 
 var _aussie2 = _interopRequireDefault(_aussie);
 
-var _bbqChickenAndBacon = __webpack_require__(163);
+var _bbqChickenAndBacon = __webpack_require__(150);
 
 var _bbqChickenAndBacon2 = _interopRequireDefault(_bbqChickenAndBacon);
 
-var _bbqMeat = __webpack_require__(164);
+var _bbqMeat = __webpack_require__(151);
 
 var _bbqMeat2 = _interopRequireDefault(_bbqMeat);
 
-var _cajunChicken = __webpack_require__(165);
+var _cajunChicken = __webpack_require__(152);
 
 var _cajunChicken2 = _interopRequireDefault(_cajunChicken);
 
-var _chipotleMegaMeat = __webpack_require__(166);
+var _chipotleMegaMeat = __webpack_require__(153);
 
 var _chipotleMegaMeat2 = _interopRequireDefault(_chipotleMegaMeat);
 
-var _countryStyleChickenBacon = __webpack_require__(167);
+var _countryStyleChickenBacon = __webpack_require__(154);
 
 var _countryStyleChickenBacon2 = _interopRequireDefault(_countryStyleChickenBacon);
 
-var _fireEater = __webpack_require__(168);
+var _fireEater = __webpack_require__(155);
 
 var _fireEater2 = _interopRequireDefault(_fireEater);
 
-var _garlicChickenSpinach = __webpack_require__(169);
+var _garlicChickenSpinach = __webpack_require__(156);
 
 var _garlicChickenSpinach2 = _interopRequireDefault(_garlicChickenSpinach);
 
-var _garlicChickenSpinach3 = __webpack_require__(170);
+var _garlicChickenSpinach3 = __webpack_require__(157);
 
 var _garlicChickenSpinach4 = _interopRequireDefault(_garlicChickenSpinach3);
 
-var _hawaiian = __webpack_require__(171);
+var _hawaiian = __webpack_require__(158);
 
 var _hawaiian2 = _interopRequireDefault(_hawaiian);
 
-var _mexican = __webpack_require__(172);
+var _mexican = __webpack_require__(159);
 
 var _mexican2 = _interopRequireDefault(_mexican);
 
-var _mexican3 = __webpack_require__(173);
+var _mexican3 = __webpack_require__(160);
 
 var _mexican4 = _interopRequireDefault(_mexican3);
 
-var _ranchStyleBacon = __webpack_require__(174);
+var _ranchStyleBacon = __webpack_require__(161);
 
 var _ranchStyleBacon2 = _interopRequireDefault(_ranchStyleBacon);
 
-var _supreme = __webpack_require__(175);
+var _supreme = __webpack_require__(162);
 
 var _supreme2 = _interopRequireDefault(_supreme);
 
-var _vegetarian = __webpack_require__(176);
+var _vegetarian = __webpack_require__(163);
 
 var _vegetarian2 = _interopRequireDefault(_vegetarian);
 
@@ -37589,107 +37148,336 @@ var Traditional = function Traditional() {
 exports.default = Traditional;
 
 /***/ }),
-/* 161 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "45c14a94437a9824dcb4bf817e6d1d2b.jpg";
 
 /***/ }),
-/* 162 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "b402903c0753b0842712005b7589e9ec.jpg";
 
 /***/ }),
-/* 163 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "8b804aabf3325d4e083fe330a0e9e22f.jpg";
 
 /***/ }),
-/* 164 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2a7796da6de468237c1b9777626d5dbe.jpg";
 
 /***/ }),
-/* 165 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "44ecd24ac67cf4bae45170c32f450df9.jpg";
 
 /***/ }),
-/* 166 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "3baf7a98c1a15949ecd7ab2ccab1bf0d.jpg";
 
 /***/ }),
-/* 167 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "3af1d1572e3dff324e205601b55fc3a5.jpg";
 
 /***/ }),
-/* 168 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "be98530311b89ceb43606f058ae9cfe4.jpg";
 
 /***/ }),
-/* 169 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5b2ccfae8cb62a81275b66165c0a6107.jpg";
 
 /***/ }),
-/* 170 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "f45d49098a11ebadb798e5d169c9ef50.jpg";
 
 /***/ }),
-/* 171 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "7a114668d7f1b1b95ecdcf15540c470a.jpg";
 
 /***/ }),
-/* 172 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5afe20e6f7794812489903289069f393.jpg";
 
 /***/ }),
-/* 173 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5afe20e6f7794812489903289069f393.jpg";
 
 /***/ }),
-/* 174 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5190f4321e21ae79e89dcb29ff482ca8.jpg";
 
 /***/ }),
-/* 175 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "ae71ca1c583c9258aac77e21dadd469e.jpg";
 
 /***/ }),
-/* 176 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "a7dc02ea419b24602a2f7564684a4431.jpg";
 
 /***/ }),
-/* 177 */
+/* 164 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _chickenTortellini = __webpack_require__(165);
+
+var _chickenTortellini2 = _interopRequireDefault(_chickenTortellini);
+
+var _lasagne = __webpack_require__(166);
+
+var _lasagne2 = _interopRequireDefault(_lasagne);
+
+var _porkRibs = __webpack_require__(167);
+
+var _porkRibs2 = _interopRequireDefault(_porkRibs);
+
+var _spaghettiBolognaise = __webpack_require__(168);
+
+var _spaghettiBolognaise2 = _interopRequireDefault(_spaghettiBolognaise);
+
+var _vegetableLasagne = __webpack_require__(169);
+
+var _vegetableLasagne2 = _interopRequireDefault(_vegetableLasagne);
+
+var _wings = __webpack_require__(170);
+
+var _wings2 = _interopRequireDefault(_wings);
+
+var _wings3 = __webpack_require__(171);
+
+var _wings4 = _interopRequireDefault(_wings3);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Sides = function Sides() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h1',
+      { className: 'menu-header' },
+      'Sides'
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement('br', null),
+    _react2.default.createElement(
+      'div',
+      { className: 'product-container' },
+      _react2.default.createElement(
+        'div',
+        { className: 'product-image' },
+        _react2.default.createElement('img', { className: 'menu-pics pointer', alt: _chickenTortellini2.default, src: _chickenTortellini2.default })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'product-desc' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'Cheese Lovers \u2013 Tomato Sauce and Mozzarella Cheese. Small $3.95 Medium $4.50 Large $5.95 Family $9.95'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'product-container' },
+      _react2.default.createElement(
+        'div',
+        { className: 'product-image' },
+        _react2.default.createElement('img', { className: 'menu-pics pointer', alt: _lasagne2.default, src: _lasagne2.default })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'product-desc' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'Cheese Lovers \u2013 Tomato Sauce and Mozzarella Cheese. Small $3.95 Medium $4.50 Large $5.95 Family $9.95'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'product-container' },
+      _react2.default.createElement(
+        'div',
+        { className: 'product-image' },
+        _react2.default.createElement('img', { className: 'menu-pics pointer', alt: _porkRibs2.default, src: _porkRibs2.default })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'product-desc' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'Cheese Lovers \u2013 Tomato Sauce and Mozzarella Cheese. Small $3.95 Medium $4.50 Large $5.95 Family $9.95'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'product-container' },
+      _react2.default.createElement(
+        'div',
+        { className: 'product-image' },
+        _react2.default.createElement('img', { className: 'menu-pics pointer', alt: _spaghettiBolognaise2.default, src: _spaghettiBolognaise2.default })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'product-desc' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'Cheese Lovers \u2013 Tomato Sauce and Mozzarella Cheese. Small $3.95 Medium $4.50 Large $5.95 Family $9.95'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'product-container' },
+      _react2.default.createElement(
+        'div',
+        { className: 'product-image' },
+        _react2.default.createElement('img', { className: 'menu-pics pointer', alt: _vegetableLasagne2.default, src: _vegetableLasagne2.default })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'product-desc' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'Cheese Lovers \u2013 Tomato Sauce and Mozzarella Cheese. Small $3.95 Medium $4.50 Large $5.95 Family $9.95'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'product-container' },
+      _react2.default.createElement(
+        'div',
+        { className: 'product-image' },
+        _react2.default.createElement('img', { className: 'menu-pics pointer', alt: _wings2.default, src: _wings2.default })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'product-desc' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'Cheese Lovers \u2013 Tomato Sauce and Mozzarella Cheese. Small $3.95 Medium $4.50 Large $5.95 Family $9.95'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'product-container' },
+      _react2.default.createElement(
+        'div',
+        { className: 'product-image' },
+        _react2.default.createElement('img', { className: 'menu-pics pointer', alt: _wings4.default, src: _wings4.default })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'product-desc' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'Cheese Lovers \u2013 Tomato Sauce and Mozzarella Cheese. Small $3.95 Medium $4.50 Large $5.95 Family $9.95'
+        )
+      )
+    )
+  );
+};
+
+exports.default = Sides;
+
+/***/ }),
+/* 165 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "ac4ecf93b0a5aafc34951f1dd68b7249.jpg";
+
+/***/ }),
+/* 166 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "0ec3c545777a5cba936e5e45089d14a3.jpg";
+
+/***/ }),
+/* 167 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "4ad568e7088b568611d87690f7f24be5.jpg";
+
+/***/ }),
+/* 168 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "046517de5f7a57ae7059ade05d86b945.jpg";
+
+/***/ }),
+/* 169 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "00712a97567caf8037d1a2ebd9c7e093.jpg";
+
+/***/ }),
+/* 170 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f50f5223e062959957ef1fa38d53a909.jpg";
+
+/***/ }),
+/* 171 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "3656f00333d64cb81d6b3120e4bffa81.jpg";
+
+/***/ }),
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(178);
+var content = __webpack_require__(173);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -37710,10 +37498,10 @@ if(content.locals) module.exports = content.locals;
 if(false) {}
 
 /***/ }),
-/* 178 */
+/* 173 */
 /***/ (function(module, exports) {
 
-module.exports = "@import url('https://fonts.googleapis.com/css?family=Saira');/*! Basscss | http://basscss.com | MIT License *//* Basscss Type Scale */.h00 { font-size: 64px; font-size: 4rem }.h0 { font-size: 48px; font-size: 3rem }.h1 { font-size: 70px }.h2 { font-size: 50px }.h3 { font-size: 20px; font-size: 1.25rem }.h4 { font-size: 16px; font-size: 1rem }.h5 { font-size: 14px; font-size: .875rem }.h6 { font-size: 12px; font-size: .75rem }/* Basscss Typography */.font-family-inherit { font-family: inherit }.font-size-inherit { font-size: inherit }.text-decoration-none { text-decoration: none }.bold    { font-weight: bold; font-weight: bold }.regular { font-weight: normal }.italic  { font-style: italic }.caps    { text-transform: uppercase; letter-spacing: .2em; }.left-align   { text-align: left }.center       { text-align: center }.right-align  { text-align: right }.justify      { text-align: justify }.nowrap { white-space: nowrap }.break-word { word-wrap: break-word }.line-height-1 { line-height: 1 }.line-height-2 { line-height: 1.125 }.line-height-3 { line-height: 1.25 }.line-height-4 { line-height: 1.5 }.list-style-none { list-style: none }.underline { text-decoration: underline }.truncate {\n  max-width: 100%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}.list-reset {\n  list-style: none;\n  padding-left: 0;\n}/* Basscss Layout */.inline       { display: inline }.block        { display: block }.inline-block { display: inline-block }.table        { display: table }.table-cell   { display: table-cell }.overflow-hidden { overflow: hidden }.overflow-scroll { overflow: scroll }.overflow-auto   { overflow: auto }.clearfix:before,\n.clearfix:after {\n  content: \" \";\n  display: table\n}.clearfix:after { clear: both }.left  { float: left }.right { float: right }.fit { max-width: 100% }.max-width-1 { max-width: 384px; max-width: 24rem }.max-width-2 { max-width: 512px; max-width: 32rem }.max-width-3 { max-width: 768px; max-width: 48rem }.max-width-4 { max-width: 1024px; max-width: 64rem }.border-box { -webkit-box-sizing: border-box; box-sizing: border-box }/* Basscss Align */.align-baseline { vertical-align: baseline }.align-top      { vertical-align: top }.align-middle   { vertical-align: middle }.align-bottom   { vertical-align: bottom }/* Basscss Margin */.m0  { margin:        0 }.mt0 { margin-top:    0 }.mr0 { margin-right:  0 }.mb0 { margin-bottom: 0 }.ml0 { margin-left:   0 }.mx0 { margin-left:   0; margin-right:  0 }.my0 { margin-top:    0; margin-bottom: 0 }.m1  { margin:        8px; margin:        .5rem }.mt1 { margin-top:    8px; margin-top:    .5rem }.mr1 { margin-right:  8px; margin-right:  .5rem }.mb1 { margin-bottom: 8px; margin-bottom: .5rem }.ml1 { margin-left:   8px; margin-left:   .5rem }.mx1 { margin-left:   8px; margin-left:   .5rem; margin-right:  8px; margin-right:  .5rem }.my1 { margin-top:    8px; margin-top:    .5rem; margin-bottom: 8px; margin-bottom: .5rem }.m2  { margin:        16px; margin:        1rem }.mt2 { margin-top:    16px; margin-top:    1rem }.mr2 { margin-right:  16px; margin-right:  1rem }.mb2 { margin-bottom: 16px; margin-bottom: 1rem }.ml2 { margin-left:   16px; margin-left:   1rem }.mx2 { margin-left:   16px; margin-left:   1rem; margin-right:  16px; margin-right:  1rem }.my2 { margin-top:    16px; margin-top:    1rem; margin-bottom: 16px; margin-bottom: 1rem }.m3  { margin:        32px; margin:        2rem }.mt3 { margin-top:    32px; margin-top:    2rem }.mr3 { margin-right:  32px; margin-right:  2rem }.mb3 { margin-bottom: 32px; margin-bottom: 2rem }.ml3 { margin-left:   32px; margin-left:   2rem }.mx3 { margin-left:   32px; margin-left:   2rem; margin-right:  32px; margin-right:  2rem }.my3 { margin-top:    32px; margin-top:    2rem; margin-bottom: 32px; margin-bottom: 2rem }.m4  { margin:        64px; margin:        4rem }.mt4 { margin-top:    64px; margin-top:    4rem }.mr4 { margin-right:  64px; margin-right:  4rem }.mb4 { margin-bottom: 64px; margin-bottom: 4rem }.ml4 { margin-left:   64px; margin-left:   4rem }.mx4 { margin-left:   64px; margin-left:   4rem; margin-right:  64px; margin-right:  4rem }.my4 { margin-top:    64px; margin-top:    4rem; margin-bottom: 64px; margin-bottom: 4rem }.mxn1 { margin-left: -8px; margin-left: -0.5rem; margin-right: -8px; margin-right: -0.5rem; }.mxn2 { margin-left: -16px; margin-left: -1rem; margin-right: -16px; margin-right: -1rem; }.mxn3 { margin-left: -32px; margin-left: -2rem; margin-right: -32px; margin-right: -2rem; }.mxn4 { margin-left: -64px; margin-left: -4rem; margin-right: -64px; margin-right: -4rem; }.m-auto  { margin: auto; }.mt-auto { margin-top: auto }.mr-auto { margin-right: auto }.mb-auto { margin-bottom: auto }.ml-auto { margin-left: auto }.mx-auto { margin-left: auto; margin-right: auto; }.my-auto { margin-top: auto; margin-bottom: auto; }/* Basscss Padding */.p0  { padding: 0 }.pt0 { padding-top: 0 }.pr0 { padding-right: 0 }.pb0 { padding-bottom: 0 }.pl0 { padding-left: 0 }.px0 { padding-left: 0; padding-right:  0 }.py0 { padding-top: 0;  padding-bottom: 0 }.p1  { padding:        8px; padding:        .5rem }.pt1 { padding-top:    8px; padding-top:    .5rem }.pr1 { padding-right:  8px; padding-right:  .5rem }.pb1 { padding-bottom: 8px; padding-bottom: .5rem }.pl1 { padding-left:   8px; padding-left:   .5rem }.py1 { padding-top:    8px; padding-top:    .5rem; padding-bottom: 8px; padding-bottom: .5rem }.px1 { padding-left:   8px; padding-left:   .5rem; padding-right:  8px; padding-right:  .5rem }.p2  { padding:        16px; padding:        1rem }.pt2 { padding-top:    16px; padding-top:    1rem }.pr2 { padding-right:  16px; padding-right:  1rem }.pb2 { padding-bottom: 16px; padding-bottom: 1rem }.pl2 { padding-left:   16px; padding-left:   1rem }.py2 { padding-top:    16px; padding-top:    1rem; padding-bottom: 16px; padding-bottom: 1rem }.px2 { padding-left:   16px; padding-left:   1rem; padding-right:  16px; padding-right:  1rem }.p3  { padding:        32px; padding:        2rem }.pt3 { padding-top:    32px; padding-top:    2rem }.pr3 { padding-right:  32px; padding-right:  2rem }.pb3 { padding-bottom: 32px; padding-bottom: 2rem }.pl3 { padding-left:   32px; padding-left:   2rem }.py3 { padding-top:    32px; padding-top:    2rem; padding-bottom: 32px; padding-bottom: 2rem }.px3 { padding-left:   32px; padding-left:   2rem; padding-right:  32px; padding-right:  2rem }.p4  { padding:        64px; padding:        4rem }.pt4 { padding-top:    64px; padding-top:    4rem }.pr4 { padding-right:  64px; padding-right:  4rem }.pb4 { padding-bottom: 64px; padding-bottom: 4rem }.pl4 { padding-left:   64px; padding-left:   4rem }.py4 { padding-top:    64px; padding-top:    4rem; padding-bottom: 64px; padding-bottom: 4rem }.px4 { padding-left:   64px; padding-left:   4rem; padding-right:  64px; padding-right:  4rem }/* Basscss Grid */.col {\n  float: left;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n}.col-right {\n  float: right;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n}.col-1 {\n  width: 8.33333%;\n}.col-2 {\n  width: 16.66667%;\n}.col-3 {\n  width: 25%;\n}.col-4 {\n  width: 33.33333%;\n}.col-5 {\n  width: 41.66667%;\n}.col-6 {\n  width: 50%;\n}.col-7 {\n  width: 58.33333%;\n}.col-8 {\n  width: 66.66667%;\n}.col-9 {\n  width: 75%;\n}.col-10 {\n  width: 83.33333%;\n}.col-11 {\n  width: 91.66667%;\n}.col-12 {\n  width: 100%;\n}@media (min-width: 40em) {\n\n  .sm-col {\n    float: left;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .sm-col-right {\n    float: right;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .sm-col-1 {\n    width: 8.33333%;\n  }\n\n  .sm-col-2 {\n    width: 16.66667%;\n  }\n\n  .sm-col-3 {\n    width: 25%;\n  }\n\n  .sm-col-4 {\n    width: 33.33333%;\n  }\n\n  .sm-col-5 {\n    width: 41.66667%;\n  }\n\n  .sm-col-6 {\n    width: 50%;\n  }\n\n  .sm-col-7 {\n    width: 58.33333%;\n  }\n\n  .sm-col-8 {\n    width: 66.66667%;\n  }\n\n  .sm-col-9 {\n    width: 75%;\n  }\n\n  .sm-col-10 {\n    width: 83.33333%;\n  }\n\n  .sm-col-11 {\n    width: 91.66667%;\n  }\n\n  .sm-col-12 {\n    width: 100%;\n  }\n\n}@media (min-width: 52em) {\n\n  .md-col {\n    float: left;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .md-col-right {\n    float: right;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .md-col-1 {\n    width: 8.33333%;\n  }\n\n  .md-col-2 {\n    width: 16.66667%;\n  }\n\n  .md-col-3 {\n    width: 25%;\n  }\n\n  .md-col-4 {\n    width: 33.33333%;\n  }\n\n  .md-col-5 {\n    width: 41.66667%;\n  }\n\n  .md-col-6 {\n    width: 50%;\n  }\n\n  .md-col-7 {\n    width: 58.33333%;\n  }\n\n  .md-col-8 {\n    width: 66.66667%;\n  }\n\n  .md-col-9 {\n    width: 75%;\n  }\n\n  .md-col-10 {\n    width: 83.33333%;\n  }\n\n  .md-col-11 {\n    width: 91.66667%;\n  }\n\n  .md-col-12 {\n    width: 100%;\n  }\n\n}@media (min-width: 64em) {\n\n  .lg-col {\n    float: left;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .lg-col-right {\n    float: right;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .lg-col-1 {\n    width: 8.33333%;\n  }\n\n  .lg-col-2 {\n    width: 16.66667%;\n  }\n\n  .lg-col-3 {\n    width: 25%;\n  }\n\n  .lg-col-4 {\n    width: 33.33333%;\n  }\n\n  .lg-col-5 {\n    width: 41.66667%;\n  }\n\n  .lg-col-6 {\n    width: 50%;\n  }\n\n  .lg-col-7 {\n    width: 58.33333%;\n  }\n\n  .lg-col-8 {\n    width: 66.66667%;\n  }\n\n  .lg-col-9 {\n    width: 75%;\n  }\n\n  .lg-col-10 {\n    width: 83.33333%;\n  }\n\n  .lg-col-11 {\n    width: 91.66667%;\n  }\n\n  .lg-col-12 {\n    width: 100%;\n  }\n\n}.flex { display: -webkit-box; display: -ms-flexbox; display: flex }@media (min-width: 40em) {\n  .sm-flex { display: -webkit-box; display: -ms-flexbox; display: flex }\n}@media (min-width: 52em) {\n  .md-flex { display: -webkit-box; display: -ms-flexbox; display: flex }\n}@media (min-width: 64em) {\n  .lg-flex { display: -webkit-box; display: -ms-flexbox; display: flex }\n}.flex-column  { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column }.flex-wrap    { -ms-flex-wrap: wrap; flex-wrap: wrap }.items-start    { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start }.items-end      { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end }.items-center   { -webkit-box-align: center; -ms-flex-align: center; align-items: center }.items-baseline { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline }.items-stretch  { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch }.self-start    { -ms-flex-item-align: start; align-self: flex-start }.self-end      { -ms-flex-item-align: end; align-self: flex-end }.self-center   { -ms-flex-item-align: center; align-self: center }.self-baseline { -ms-flex-item-align: baseline; align-self: baseline }.self-stretch  { -ms-flex-item-align: stretch; align-self: stretch }.justify-start   { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start }.justify-end     { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end }.justify-center  { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center }.justify-between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between }.justify-around  { -ms-flex-pack: distribute; justify-content: space-around }.justify-evenly  { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly }.content-start   { -ms-flex-line-pack: start; align-content: flex-start }.content-end     { -ms-flex-line-pack: end; align-content: flex-end }.content-center  { -ms-flex-line-pack: center; align-content: center }.content-between { -ms-flex-line-pack: justify; align-content: space-between }.content-around  { -ms-flex-line-pack: distribute; align-content: space-around }.content-stretch { -ms-flex-line-pack: stretch; align-content: stretch }/* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */.flex-auto {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 auto;\n          flex: 1 1 auto;\n  min-width: 0; /* 1 */\n  min-height: 0; /* 1 */\n}.flex-none { -webkit-box-flex: 0; -ms-flex: none; flex: none }.order-0 { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0 }.order-1 { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1 }.order-2 { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2 }.order-3 { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3 }.order-last { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999 }/* Basscss Position */.relative { position: relative }.absolute { position: absolute }.fixed    { position: fixed }.top-0    { top: 0 }.right-0  { right: 0 }.bottom-0 { bottom: 0 }.left-0   { left: 0 }.z1 { z-index: 1 }.z2 { z-index: 2 }.z3 { z-index: 3 }.z4 { z-index: 4 }/* Basscss Border */.border {\n  border-style: solid;\n  border-width: 1px;\n}.border-top {\n  border-top-style: solid;\n  border-top-width: 1px;\n}.border-right {\n  border-right-style: solid;\n  border-right-width: 1px;\n}.border-bottom {\n  border-bottom-style: solid;\n  border-bottom-width: 1px;\n}.border-left {\n  border-left-style: solid;\n  border-left-width: 1px;\n}.border-none { border: 0 }.rounded { border-radius: 3px }.circle  { border-radius: 50% }.rounded-top    { border-radius: 3px 3px 0 0 }.rounded-right  { border-radius: 0 3px 3px 0 }.rounded-bottom { border-radius: 0 0 3px 3px }.rounded-left   { border-radius: 3px 0 0 3px }.not-rounded { border-radius: 0 }/* Basscss Hide */.hide {\n  position: absolute !important;\n  height: 1px;\n  width: 1px;\n  overflow: hidden;\n  clip: rect(1px, 1px, 1px, 1px);\n}@media (max-width: 40em) {\n  .xs-hide { display: none !important }\n}@media (min-width: 40em) and (max-width: 52em) {\n  .sm-hide { display: none !important }\n}@media (min-width: 52em) and (max-width: 64em) {\n  .md-hide { display: none !important }\n}@media (min-width: 64em) {\n  .lg-hide { display: none !important }\n}.display-none { display: none !important }/* Basscss Colors *//* \n\n   VARIABLES\n\n   - Cool\n   - Warm\n   - Gray Scale\n\n*/.black  { color: #222 }.gray   { color: #AAAAAA }.silver { color: #DDDDDD }.white  { color: #FFFFFF }.aqua  { color: #7FDBFF }.blue  { color: #0074D9 }.navy  { color: #001F3F }.teal  { color: #39CCCC }.green { color: #2ECC40 }.olive { color: #3D9970 }.lime  { color: #eef0ef }.yellow  { color: #FFDC00 }.orange  { color: #FF851B }.red     { color: #FF4136 }.fuchsia { color: #F012BE }.purple  { color: #B10DC9 }.maroon  { color: #85144B }.color-inherit { color: inherit }.muted { opacity: .5 }/* Basscss Background Colors */.bg-black  { background-color: #222 }.bg-gray   { background-color: #AAAAAA }.bg-silver { background-color: #DDDDDD }.bg-white  { background-color: #FFFFFF }.bg-aqua  { background-color: #7FDBFF }.bg-blue  { background-color: #0074D9 }.bg-navy  { background-color: #001F3F }.bg-teal  { background-color: #39CCCC }.bg-green { background-color: #2ECC40 }.bg-olive { background-color: #3D9970 }.bg-lime  { background-color: #eef0ef }.bg-yellow  { background-color: #FFDC00 }.bg-orange  { background-color: #FF851B }.bg-red     { background-color: #FF4136 }.bg-fuchsia { background-color: #F012BE }.bg-purple  { background-color: #B10DC9 }.bg-maroon  { background-color: #85144B }.border-bottom-dashed {\n   border-bottom-style: dashed;\n}.pointer {\n   cursor: pointer;\n}a {\n   color: #FFFFFF;\n   text-decoration: none;\n}.our-navbar {\n   padding-left: 5%;\n   padding-right: 5%;\n   background-color: #cc7500;\n}.navbar-item {\n   -webkit-box-align: center;\n       -ms-flex-align: center;\n           align-items: center;\n   -webkit-box-pack: center;\n       -ms-flex-pack: center;\n           justify-content: center;\n   -webkit-box-flex: 1;\n       -ms-flex: 1;\n           flex: 1;\n}.navbar-item :hover {\n   background-color: #e29503;\n}.navbar-text {\n   display: block;\n   margin: auto;\n   color: white;\n   padding-top: 16px;\n   padding-top: 1rem;\n   padding-bottom: 16px;\n   padding-bottom: 1rem;\n   padding-right: 16px;\n   padding-right: 1rem;\n   padding-left: 16px;\n   padding-left: 1rem;\n}.order-now {\n   color: white;\n   background-color: #cc7500;\n   width: 100%;\n   border-radius: 10%;\n}/* The container <div> - needed to position the dropdown content */.dropdown {\n  position: relative;\n  display: inline-block;\n}/* Dropdown Content (Hidden by Default) */.dropdown-content {\n  display: none;\n  position: absolute;\n  width: 100%;\n  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);\n          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);\n  z-index: 1;\n}/* Links inside the dropdown */.dropdown-links {\n  color: white;\n  padding: 12px 16px;\n  text-decoration: none;\n  display: block;\n}/* Change color of dropdown links on hover */.dropdown-links :hover {background-color: #e29503;}/* Show the dropdown menu on hover */.dropdown:hover .dropdown-content {\n   display: block;\n   background-color: #cc7500;\n}.my-header {\n   background-color:#242424;\n}.my-header-pic {\n   height: 2%;\n   width: 60%;\n   display: block;\n   margin: auto;\n   padding-bottom: 1%; \n\n}.footer-container {\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  background-color:#242424;\n}.news-letter {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  width: 50%;\n}.newsletter-text {\n  font-size: 32px;\n  font-size: 2rem;\n}.search-field {\n  height: 48px;\n  height: 3rem;\n  background-color: white;\n}.newsletter-input-box {\n  width: 84.4%;\n  font-size: 32px;\n  font-size: 2rem;\n  margin-bottom: 0.5%\n}.newsletter-input-btn {\n  font-size: 32px;\n  font-size: 2rem;\n  background-color: red;\n  -webkit-box-pack: right;\n      -ms-flex-pack: right;\n          justify-content: right;\n  height: 100%;\n  width: 15%;\n}.footer-links {\n  font-size: 24px;\n  font-size: 1.5rem;\n  width: 100%;\n}.footer-links-text {\n  text-align: center;\n   display: block;\n   margin: auto;\n   color: white;\n   font-size: 16px;\n   font-size: 1rem;\n   padding: 1%;\n}.email-input {\n  border-style: none;\n}.footer-logo {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  height: 100%;\n  width:10%;\n}.footer-btm {\n  display: block;\n  width: 100%;\n  text-align: center;\n}.footer-fb-logo {\n  height: 32px;\n  height: 2rem;\n}.aboutustext {\n   text-align: center;\n   padding-right: 30%;\n   padding-left: 30%;\n   padding-top: 3%;\n   padding-bottom: 2%;\n}.about-us-pics{\n   width: 100%;\n   padding-bottom: 5%;\n}.boundary{\n   page-break-after: auto;\n   color: orange;\n}hr{\n   border-color: #e29503;\n   width: 96%;\n   margin-left: auto;\n   margin-right: auto;\n   height: 0%;\n}hr{\n   border-color: #e29503;\n   width: 96%;\n   margin-left: auto;\n   margin-right: auto;\n   height: 0%;\n}.contactusheading {\n   text-align: center;\n}.contactusbutton{\n   background-color: black;\n   color: rgba(207, 186, 186, 0.8);\n   border-color: rgba(218, 202, 202, 0.8);\n   width: 10%;\n   border-radius: 5px;\n}.contactustext {\n   background-color: black;\n   color: rgba(207, 186, 186, 0.8);\n   border-color: rgba(218, 202, 202, 0.8);\n   width: 70%;\n   margin-top: 3%;\n   padding: 1%;\n   border-radius: 5px;\n}.contactusinfo{\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -webkit-box-flex: 1;\n       -ms-flex-positive: 1;\n           flex-grow: 1;\n   padding: 5%;\n}.contactusdata{\n   width: 1100%;\n   margin-right: 10%;\n}.contactusform {\n   width: 550%;\n   margin-left: 200%;\n}.contactusmap{\n   height: 80%;\n}.container{\n   height: 100%;\n}.mapDiv{\n}.contactusicons{\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   margin-left: 20%;\n   padding-right: 20%;\n   width: 120%;\n}.contactusimage{\n   margin-right: 40%;\n   float:left;\n}.contactusicontext{\n   float:right;\n}.menu-pics{\n   padding: 3%;\n   -webkit-box-flex: 1;\n       -ms-flex: 1;\n           flex: 1;\n   min-width: 320px;\n   min-width: 20rem;\n   height: 240px;\n   height: 15rem;\n}.pic-container{\n   padding:1px;\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -ms-flex-wrap: wrap;\n       flex-wrap: wrap;\n}.deal-images {\n   padding-top: 2%;\n   height: 448px;\n   height: 28rem;\n}.slide-desc {\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -webkit-box-align: center;\n       -ms-flex-align: center;\n           align-items: center;\n   -webkit-box-pack: center;\n       -ms-flex-pack: center;\n           justify-content: center;\n   height: 480px;\n   height: 30rem;\n   padding: 5%;\n   padding-right: 10%;\n}.main-btns {\n   margin-bottom: 10%;\n}.homepage-btns {\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -webkit-box-align: center;\n       -ms-flex-align: center;\n           align-items: center;\n   -webkit-box-pack: center;\n       -ms-flex-pack: center;\n           justify-content: center;\n}.button-element {\n   padding: 1%;\n   padding-right: 4%;\n   padding-left: 4%;\n   margin-bottom: 5%;\n   border-color: #cc7500;\n   border-radius: 10%;\n}.btn-color {\n   background-color: black;\n   font-size: 24px;\n   font-size: 1.5rem;\n   margin-top: 5%;\n}/* .button-element :hover {\n   background-color: #e29503;\n} */.btn-text {\n   color: white;\n}.slideshow-container {\n   padding: 3%;\n}.our-selection-header {\n   color: #cc7500;\n}.google-map{\n  height: 100%;\n  width: 100%;\n}.menu-header {\n  padding-left: 2%;\n}.product-container {\n  padding-left: 1%;\n  padding-bottom: 3%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n}.product-image {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n}.product-desc {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  color: white;\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2;\n}:root {\n   font-family: 'Saira', sans-serif;\n}h1, h2, h3, h4, h5, h6 {\n   margin: 0.4em 0px;\n}.givingback-header\n{\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -ms-flex-wrap: wrap;\n       flex-wrap: wrap;\n}.sides{\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -ms-flex-wrap: wrap;\n       flex-wrap: wrap;\n}.sides-pics{\n   padding: 0.3%;\n   max-width: 288px;\n   max-width: 18rem;\n   max-height: 240px;\n   max-height: 15rem;\n   -webkit-box-flex: 1;\n       -ms-flex: 1;\n           flex: 1;\n}body{\n   background-color: black;\n   color: rgba(254, 254, 254, 0.8);\n}\n\n\n"
+module.exports = "@import url('https://fonts.googleapis.com/css?family=Saira');/*! Basscss | http://basscss.com | MIT License *//* Basscss Type Scale */.h00 { font-size: 64px; font-size: 4rem }.h0 { font-size: 48px; font-size: 3rem }.h1 { font-size: 70px }.h2 { font-size: 50px }.h3 { font-size: 20px; font-size: 1.25rem }.h4 { font-size: 16px; font-size: 1rem }.h5 { font-size: 14px; font-size: .875rem }.h6 { font-size: 12px; font-size: .75rem }/* Basscss Typography */.font-family-inherit { font-family: inherit }.font-size-inherit { font-size: inherit }.text-decoration-none { text-decoration: none }.bold    { font-weight: bold; font-weight: bold }.regular { font-weight: normal }.italic  { font-style: italic }.caps    { text-transform: uppercase; letter-spacing: .2em; }.left-align   { text-align: left }.center       { text-align: center }.right-align  { text-align: right }.justify      { text-align: justify }.nowrap { white-space: nowrap }.break-word { word-wrap: break-word }.line-height-1 { line-height: 1 }.line-height-2 { line-height: 1.125 }.line-height-3 { line-height: 1.25 }.line-height-4 { line-height: 1.5 }.list-style-none { list-style: none }.underline { text-decoration: underline }.truncate {\n  max-width: 100%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}.list-reset {\n  list-style: none;\n  padding-left: 0;\n}/* Basscss Layout */.inline       { display: inline }.block        { display: block }.inline-block { display: inline-block }.table        { display: table }.table-cell   { display: table-cell }.overflow-hidden { overflow: hidden }.overflow-scroll { overflow: scroll }.overflow-auto   { overflow: auto }.clearfix:before,\n.clearfix:after {\n  content: \" \";\n  display: table\n}.clearfix:after { clear: both }.left  { float: left }.right { float: right }.fit { max-width: 100% }.max-width-1 { max-width: 384px; max-width: 24rem }.max-width-2 { max-width: 512px; max-width: 32rem }.max-width-3 { max-width: 768px; max-width: 48rem }.max-width-4 { max-width: 1024px; max-width: 64rem }.border-box { -webkit-box-sizing: border-box; box-sizing: border-box }/* Basscss Align */.align-baseline { vertical-align: baseline }.align-top      { vertical-align: top }.align-middle   { vertical-align: middle }.align-bottom   { vertical-align: bottom }/* Basscss Margin */.m0  { margin:        0 }.mt0 { margin-top:    0 }.mr0 { margin-right:  0 }.mb0 { margin-bottom: 0 }.ml0 { margin-left:   0 }.mx0 { margin-left:   0; margin-right:  0 }.my0 { margin-top:    0; margin-bottom: 0 }.m1  { margin:        8px; margin:        .5rem }.mt1 { margin-top:    8px; margin-top:    .5rem }.mr1 { margin-right:  8px; margin-right:  .5rem }.mb1 { margin-bottom: 8px; margin-bottom: .5rem }.ml1 { margin-left:   8px; margin-left:   .5rem }.mx1 { margin-left:   8px; margin-left:   .5rem; margin-right:  8px; margin-right:  .5rem }.my1 { margin-top:    8px; margin-top:    .5rem; margin-bottom: 8px; margin-bottom: .5rem }.m2  { margin:        16px; margin:        1rem }.mt2 { margin-top:    16px; margin-top:    1rem }.mr2 { margin-right:  16px; margin-right:  1rem }.mb2 { margin-bottom: 16px; margin-bottom: 1rem }.ml2 { margin-left:   16px; margin-left:   1rem }.mx2 { margin-left:   16px; margin-left:   1rem; margin-right:  16px; margin-right:  1rem }.my2 { margin-top:    16px; margin-top:    1rem; margin-bottom: 16px; margin-bottom: 1rem }.m3  { margin:        32px; margin:        2rem }.mt3 { margin-top:    32px; margin-top:    2rem }.mr3 { margin-right:  32px; margin-right:  2rem }.mb3 { margin-bottom: 32px; margin-bottom: 2rem }.ml3 { margin-left:   32px; margin-left:   2rem }.mx3 { margin-left:   32px; margin-left:   2rem; margin-right:  32px; margin-right:  2rem }.my3 { margin-top:    32px; margin-top:    2rem; margin-bottom: 32px; margin-bottom: 2rem }.m4  { margin:        64px; margin:        4rem }.mt4 { margin-top:    64px; margin-top:    4rem }.mr4 { margin-right:  64px; margin-right:  4rem }.mb4 { margin-bottom: 64px; margin-bottom: 4rem }.ml4 { margin-left:   64px; margin-left:   4rem }.mx4 { margin-left:   64px; margin-left:   4rem; margin-right:  64px; margin-right:  4rem }.my4 { margin-top:    64px; margin-top:    4rem; margin-bottom: 64px; margin-bottom: 4rem }.mxn1 { margin-left: -8px; margin-left: -0.5rem; margin-right: -8px; margin-right: -0.5rem; }.mxn2 { margin-left: -16px; margin-left: -1rem; margin-right: -16px; margin-right: -1rem; }.mxn3 { margin-left: -32px; margin-left: -2rem; margin-right: -32px; margin-right: -2rem; }.mxn4 { margin-left: -64px; margin-left: -4rem; margin-right: -64px; margin-right: -4rem; }.m-auto  { margin: auto; }.mt-auto { margin-top: auto }.mr-auto { margin-right: auto }.mb-auto { margin-bottom: auto }.ml-auto { margin-left: auto }.mx-auto { margin-left: auto; margin-right: auto; }.my-auto { margin-top: auto; margin-bottom: auto; }/* Basscss Padding */.p0  { padding: 0 }.pt0 { padding-top: 0 }.pr0 { padding-right: 0 }.pb0 { padding-bottom: 0 }.pl0 { padding-left: 0 }.px0 { padding-left: 0; padding-right:  0 }.py0 { padding-top: 0;  padding-bottom: 0 }.p1  { padding:        8px; padding:        .5rem }.pt1 { padding-top:    8px; padding-top:    .5rem }.pr1 { padding-right:  8px; padding-right:  .5rem }.pb1 { padding-bottom: 8px; padding-bottom: .5rem }.pl1 { padding-left:   8px; padding-left:   .5rem }.py1 { padding-top:    8px; padding-top:    .5rem; padding-bottom: 8px; padding-bottom: .5rem }.px1 { padding-left:   8px; padding-left:   .5rem; padding-right:  8px; padding-right:  .5rem }.p2  { padding:        16px; padding:        1rem }.pt2 { padding-top:    16px; padding-top:    1rem }.pr2 { padding-right:  16px; padding-right:  1rem }.pb2 { padding-bottom: 16px; padding-bottom: 1rem }.pl2 { padding-left:   16px; padding-left:   1rem }.py2 { padding-top:    16px; padding-top:    1rem; padding-bottom: 16px; padding-bottom: 1rem }.px2 { padding-left:   16px; padding-left:   1rem; padding-right:  16px; padding-right:  1rem }.p3  { padding:        32px; padding:        2rem }.pt3 { padding-top:    32px; padding-top:    2rem }.pr3 { padding-right:  32px; padding-right:  2rem }.pb3 { padding-bottom: 32px; padding-bottom: 2rem }.pl3 { padding-left:   32px; padding-left:   2rem }.py3 { padding-top:    32px; padding-top:    2rem; padding-bottom: 32px; padding-bottom: 2rem }.px3 { padding-left:   32px; padding-left:   2rem; padding-right:  32px; padding-right:  2rem }.p4  { padding:        64px; padding:        4rem }.pt4 { padding-top:    64px; padding-top:    4rem }.pr4 { padding-right:  64px; padding-right:  4rem }.pb4 { padding-bottom: 64px; padding-bottom: 4rem }.pl4 { padding-left:   64px; padding-left:   4rem }.py4 { padding-top:    64px; padding-top:    4rem; padding-bottom: 64px; padding-bottom: 4rem }.px4 { padding-left:   64px; padding-left:   4rem; padding-right:  64px; padding-right:  4rem }/* Basscss Grid */.col {\n  float: left;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n}.col-right {\n  float: right;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n}.col-1 {\n  width: 8.33333%;\n}.col-2 {\n  width: 16.66667%;\n}.col-3 {\n  width: 25%;\n}.col-4 {\n  width: 33.33333%;\n}.col-5 {\n  width: 41.66667%;\n}.col-6 {\n  width: 50%;\n}.col-7 {\n  width: 58.33333%;\n}.col-8 {\n  width: 66.66667%;\n}.col-9 {\n  width: 75%;\n}.col-10 {\n  width: 83.33333%;\n}.col-11 {\n  width: 91.66667%;\n}.col-12 {\n  width: 100%;\n}@media (min-width: 40em) {\n\n  .sm-col {\n    float: left;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .sm-col-right {\n    float: right;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .sm-col-1 {\n    width: 8.33333%;\n  }\n\n  .sm-col-2 {\n    width: 16.66667%;\n  }\n\n  .sm-col-3 {\n    width: 25%;\n  }\n\n  .sm-col-4 {\n    width: 33.33333%;\n  }\n\n  .sm-col-5 {\n    width: 41.66667%;\n  }\n\n  .sm-col-6 {\n    width: 50%;\n  }\n\n  .sm-col-7 {\n    width: 58.33333%;\n  }\n\n  .sm-col-8 {\n    width: 66.66667%;\n  }\n\n  .sm-col-9 {\n    width: 75%;\n  }\n\n  .sm-col-10 {\n    width: 83.33333%;\n  }\n\n  .sm-col-11 {\n    width: 91.66667%;\n  }\n\n  .sm-col-12 {\n    width: 100%;\n  }\n\n}@media (min-width: 52em) {\n\n  .md-col {\n    float: left;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .md-col-right {\n    float: right;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .md-col-1 {\n    width: 8.33333%;\n  }\n\n  .md-col-2 {\n    width: 16.66667%;\n  }\n\n  .md-col-3 {\n    width: 25%;\n  }\n\n  .md-col-4 {\n    width: 33.33333%;\n  }\n\n  .md-col-5 {\n    width: 41.66667%;\n  }\n\n  .md-col-6 {\n    width: 50%;\n  }\n\n  .md-col-7 {\n    width: 58.33333%;\n  }\n\n  .md-col-8 {\n    width: 66.66667%;\n  }\n\n  .md-col-9 {\n    width: 75%;\n  }\n\n  .md-col-10 {\n    width: 83.33333%;\n  }\n\n  .md-col-11 {\n    width: 91.66667%;\n  }\n\n  .md-col-12 {\n    width: 100%;\n  }\n\n}@media (min-width: 64em) {\n\n  .lg-col {\n    float: left;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .lg-col-right {\n    float: right;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n  }\n\n  .lg-col-1 {\n    width: 8.33333%;\n  }\n\n  .lg-col-2 {\n    width: 16.66667%;\n  }\n\n  .lg-col-3 {\n    width: 25%;\n  }\n\n  .lg-col-4 {\n    width: 33.33333%;\n  }\n\n  .lg-col-5 {\n    width: 41.66667%;\n  }\n\n  .lg-col-6 {\n    width: 50%;\n  }\n\n  .lg-col-7 {\n    width: 58.33333%;\n  }\n\n  .lg-col-8 {\n    width: 66.66667%;\n  }\n\n  .lg-col-9 {\n    width: 75%;\n  }\n\n  .lg-col-10 {\n    width: 83.33333%;\n  }\n\n  .lg-col-11 {\n    width: 91.66667%;\n  }\n\n  .lg-col-12 {\n    width: 100%;\n  }\n\n}.flex { display: -webkit-box; display: -ms-flexbox; display: flex }@media (min-width: 40em) {\n  .sm-flex { display: -webkit-box; display: -ms-flexbox; display: flex }\n}@media (min-width: 52em) {\n  .md-flex { display: -webkit-box; display: -ms-flexbox; display: flex }\n}@media (min-width: 64em) {\n  .lg-flex { display: -webkit-box; display: -ms-flexbox; display: flex }\n}.flex-column  { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column }.flex-wrap    { -ms-flex-wrap: wrap; flex-wrap: wrap }.items-start    { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start }.items-end      { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end }.items-center   { -webkit-box-align: center; -ms-flex-align: center; align-items: center }.items-baseline { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline }.items-stretch  { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch }.self-start    { -ms-flex-item-align: start; align-self: flex-start }.self-end      { -ms-flex-item-align: end; align-self: flex-end }.self-center   { -ms-flex-item-align: center; align-self: center }.self-baseline { -ms-flex-item-align: baseline; align-self: baseline }.self-stretch  { -ms-flex-item-align: stretch; align-self: stretch }.justify-start   { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start }.justify-end     { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end }.justify-center  { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center }.justify-between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between }.justify-around  { -ms-flex-pack: distribute; justify-content: space-around }.justify-evenly  { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly }.content-start   { -ms-flex-line-pack: start; align-content: flex-start }.content-end     { -ms-flex-line-pack: end; align-content: flex-end }.content-center  { -ms-flex-line-pack: center; align-content: center }.content-between { -ms-flex-line-pack: justify; align-content: space-between }.content-around  { -ms-flex-line-pack: distribute; align-content: space-around }.content-stretch { -ms-flex-line-pack: stretch; align-content: stretch }/* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */.flex-auto {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 auto;\n          flex: 1 1 auto;\n  min-width: 0; /* 1 */\n  min-height: 0; /* 1 */\n}.flex-none { -webkit-box-flex: 0; -ms-flex: none; flex: none }.order-0 { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0 }.order-1 { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1 }.order-2 { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2 }.order-3 { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3 }.order-last { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999 }/* Basscss Position */.relative { position: relative }.absolute { position: absolute }.fixed    { position: fixed }.top-0    { top: 0 }.right-0  { right: 0 }.bottom-0 { bottom: 0 }.left-0   { left: 0 }.z1 { z-index: 1 }.z2 { z-index: 2 }.z3 { z-index: 3 }.z4 { z-index: 4 }/* Basscss Border */.border {\n  border-style: solid;\n  border-width: 1px;\n}.border-top {\n  border-top-style: solid;\n  border-top-width: 1px;\n}.border-right {\n  border-right-style: solid;\n  border-right-width: 1px;\n}.border-bottom {\n  border-bottom-style: solid;\n  border-bottom-width: 1px;\n}.border-left {\n  border-left-style: solid;\n  border-left-width: 1px;\n}.border-none { border: 0 }.rounded { border-radius: 3px }.circle  { border-radius: 50% }.rounded-top    { border-radius: 3px 3px 0 0 }.rounded-right  { border-radius: 0 3px 3px 0 }.rounded-bottom { border-radius: 0 0 3px 3px }.rounded-left   { border-radius: 3px 0 0 3px }.not-rounded { border-radius: 0 }/* Basscss Hide */.hide {\n  position: absolute !important;\n  height: 1px;\n  width: 1px;\n  overflow: hidden;\n  clip: rect(1px, 1px, 1px, 1px);\n}@media (max-width: 40em) {\n  .xs-hide { display: none !important }\n}@media (min-width: 40em) and (max-width: 52em) {\n  .sm-hide { display: none !important }\n}@media (min-width: 52em) and (max-width: 64em) {\n  .md-hide { display: none !important }\n}@media (min-width: 64em) {\n  .lg-hide { display: none !important }\n}.display-none { display: none !important }/* Basscss Colors *//* \n\n   VARIABLES\n\n   - Cool\n   - Warm\n   - Gray Scale\n\n*/.black  { color: #222 }.gray   { color: #AAAAAA }.silver { color: #DDDDDD }.white  { color: #FFFFFF }.aqua  { color: #7FDBFF }.blue  { color: #0074D9 }.navy  { color: #001F3F }.teal  { color: #39CCCC }.green { color: #2ECC40 }.olive { color: #3D9970 }.lime  { color: #eef0ef }.yellow  { color: #FFDC00 }.orange  { color: #FF851B }.red     { color: #FF4136 }.fuchsia { color: #F012BE }.purple  { color: #B10DC9 }.maroon  { color: #85144B }.color-inherit { color: inherit }.muted { opacity: .5 }/* Basscss Background Colors */.bg-black  { background-color: #222 }.bg-gray   { background-color: #AAAAAA }.bg-silver { background-color: #DDDDDD }.bg-white  { background-color: #FFFFFF }.bg-aqua  { background-color: #7FDBFF }.bg-blue  { background-color: #0074D9 }.bg-navy  { background-color: #001F3F }.bg-teal  { background-color: #39CCCC }.bg-green { background-color: #2ECC40 }.bg-olive { background-color: #3D9970 }.bg-lime  { background-color: #eef0ef }.bg-yellow  { background-color: #FFDC00 }.bg-orange  { background-color: #FF851B }.bg-red     { background-color: #FF4136 }.bg-fuchsia { background-color: #F012BE }.bg-purple  { background-color: #B10DC9 }.bg-maroon  { background-color: #85144B }.border-bottom-dashed {\n   border-bottom-style: dashed;\n}.pointer {\n   cursor: pointer;\n}a {\n   color: #FFFFFF;\n   text-decoration: none;\n}.our-navbar {\n   padding-left: 5%;\n   padding-right: 5%;\n   background-color: #cc7500;\n}.navbar-item {\n   -webkit-box-align: center;\n       -ms-flex-align: center;\n           align-items: center;\n   -webkit-box-pack: center;\n       -ms-flex-pack: center;\n           justify-content: center;\n   -webkit-box-flex: 1;\n       -ms-flex: 1;\n           flex: 1;\n}.navbar-item :hover {\n   background-color: #e29503;\n}.navbar-text {\n   display: block;\n   margin: auto;\n   color: white;\n   padding-top: 16px;\n   padding-top: 1rem;\n   padding-bottom: 16px;\n   padding-bottom: 1rem;\n   padding-right: 16px;\n   padding-right: 1rem;\n   padding-left: 16px;\n   padding-left: 1rem;\n}.order-now {\n   color: white;\n   background-color: #cc7500;\n   width: 100%;\n   border-radius: 10%;\n}/* The container <div> - needed to position the dropdown content */.dropdown {\n  position: relative;\n  display: inline-block;\n}/* Dropdown Content (Hidden by Default) */.dropdown-content {\n  display: none;\n  position: absolute;\n  width: 100%;\n  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);\n          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);\n  z-index: 1;\n}/* Links inside the dropdown */.dropdown-links {\n  color: white;\n  padding: 12px 16px;\n  text-decoration: none;\n  display: block;\n}/* Change color of dropdown links on hover */.dropdown-links :hover {background-color: #e29503;}/* Show the dropdown menu on hover */.dropdown:hover .dropdown-content {\n   display: block;\n   background-color: #cc7500;\n}.my-header {\n   background-color:#242424;\n}.my-header-pic {\n   height: 2%;\n   width: 60%;\n   display: block;\n   margin: auto;\n   padding-bottom: 1%; \n\n}.footer-container {\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  background-color:#242424;\n}.news-letter {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  width: 50%;\n}.newsletter-text {\n  font-size: 32px;\n  font-size: 2rem;\n}.search-field {\n  height: 48px;\n  height: 3rem;\n  background-color: white;\n}.newsletter-input-box {\n  width: 84.4%;\n  font-size: 32px;\n  font-size: 2rem;\n  margin-bottom: 0.5%\n}.newsletter-input-btn {\n  font-size: 32px;\n  font-size: 2rem;\n  background-color: red;\n  -webkit-box-pack: right;\n      -ms-flex-pack: right;\n          justify-content: right;\n  height: 100%;\n  width: 15%;\n}.footer-links {\n  font-size: 24px;\n  font-size: 1.5rem;\n  width: 100%;\n}.footer-links-text {\n  text-align: center;\n   display: block;\n   margin: auto;\n   color: white;\n   font-size: 16px;\n   font-size: 1rem;\n   padding: 1%;\n}.email-input {\n  border-style: none;\n}.footer-logo {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  height: 100%;\n  width:10%;\n}.footer-btm {\n  display: block;\n  width: 100%;\n  text-align: center;\n}.footer-fb-logo {\n  height: 32px;\n  height: 2rem;\n}.aboutustext {\n   text-align: center;\n   padding-right: 30%;\n   padding-left: 30%;\n   padding-top: 3%;\n   padding-bottom: 2%;\n}.about-us-pics{\n   /* text-align: center; */\n   display: block;\n   margin: auto;\n   width: 96%;\n   padding-bottom: 5%;\n}.boundary{\n   page-break-after: auto;\n   color: orange;\n}hr{\n   border-color: #e29503;\n   width: 96%;\n   margin-left: auto;\n   margin-right: auto;\n   height: 0%;\n}hr{\n   border-color: #e29503;\n   width: 96%;\n   margin-left: auto;\n   margin-right: auto;\n   height: 0%;\n}.contactusheading {\n   text-align: center;\n}.contactusbutton{\n   background-color: black;\n   color: rgba(207, 186, 186, 0.8);\n   border-color: rgba(218, 202, 202, 0.8);\n   width: 10%;\n   border-radius: 5px;\n}.contactustext {\n   background-color: black;\n   color: rgba(207, 186, 186, 0.8);\n   border-color: rgba(218, 202, 202, 0.8);\n   width: 70%;\n   margin-top: 3%;\n   padding: 1%;\n   border-radius: 5px;\n}.contactusinfo{\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -webkit-box-flex: 1;\n       -ms-flex-positive: 1;\n           flex-grow: 1;\n   padding: 5%;\n}.contactusdata{\n   width: 1100%;\n   margin-right: 10%;\n}.contactusform {\n   width: 550%;\n   margin-left: 200%;\n}.contactusmap{\n   height: 80%;\n}.container{\n   height: 100%;\n}.mapDiv{\n}.contactusicons{\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   margin-left: 20%;\n   padding-right: 20%;\n   width: 120%;\n}.contactusimage{\n   margin-right: 40%;\n   float:left;\n}.contactusicontext{\n   float:right;\n}.menu-pics{\n   padding: 3%;\n   -webkit-box-flex: 1;\n       -ms-flex: 1;\n           flex: 1;\n   min-width: 320px;\n   min-width: 20rem;\n   height: 240px;\n   height: 15rem;\n}.pic-container{\n   padding:1px;\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -ms-flex-wrap: wrap;\n       flex-wrap: wrap;\n}.deal-images {\n   padding-top: 2%;\n   height: 448px;\n   height: 28rem;\n}.slide-desc {\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -webkit-box-align: center;\n       -ms-flex-align: center;\n           align-items: center;\n   -webkit-box-pack: center;\n       -ms-flex-pack: center;\n           justify-content: center;\n   height: 480px;\n   height: 30rem;\n   padding: 5%;\n   padding-right: 10%;\n}.main-btns {\n   margin-bottom: 10%;\n}.homepage-btns {\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -webkit-box-align: center;\n       -ms-flex-align: center;\n           align-items: center;\n   -webkit-box-pack: center;\n       -ms-flex-pack: center;\n           justify-content: center;\n}.button-element {\n   padding: 1%;\n   padding-right: 4%;\n   padding-left: 4%;\n   margin-bottom: 5%;\n   border-color: #cc7500;\n   border-radius: 10%;\n}.btn-color {\n   background-color: black;\n   font-size: 24px;\n   font-size: 1.5rem;\n   margin-top: 5%;\n}/* .button-element :hover {\n   background-color: #e29503;\n} */.btn-text {\n   color: white;\n}.slideshow-container {\n   padding: 3%;\n}.our-selection-header {\n   color: #cc7500;\n}.google-map{\n  height: 100%;\n  width: 100%;\n}.menu-header {\n  padding-left: 2%;\n}.product-container {\n  padding-left: 1%;\n  padding-bottom: 3%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n}.product-image {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n}.product-desc {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  color: white;\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2;\n}:root {\n   font-family: 'Saira', sans-serif;\n}h1, h2, h3, h4, h5, h6 {\n   margin: 0.4em 0px;\n}.givingback-header\n{\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -ms-flex-wrap: wrap;\n       flex-wrap: wrap;\n}.sides{\n   display: -webkit-box;\n   display: -ms-flexbox;\n   display: flex;\n   -ms-flex-wrap: wrap;\n       flex-wrap: wrap;\n}.sides-pics{\n   padding: 0.3%;\n   max-width: 288px;\n   max-width: 18rem;\n   max-height: 240px;\n   max-height: 15rem;\n   -webkit-box-flex: 1;\n       -ms-flex: 1;\n           flex: 1;\n}body{\n   background-color: black;\n   color: rgba(254, 254, 254, 0.8);\n}\n\n\n"
 
 /***/ })
 /******/ ]);

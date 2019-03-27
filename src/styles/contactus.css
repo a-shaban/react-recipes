@@ -30,8 +30,6 @@ hr{
    padding: 5%;
 }
 .contactusdata{
-   width: 1100%;
-   margin-right: 10%;
 }
 .contactusform {
    width: 550%;
@@ -43,8 +41,9 @@ hr{
 .container{
    height: 100%;
 }
-
 .mapDiv{
+   margin-bottom:30%;
+   display: block;
 }
 .contactusicons{
    display: flex;

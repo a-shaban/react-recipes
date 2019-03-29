@@ -1,15 +1,12 @@
 import React from 'react';
 import Banner from '../static/images/EPBanner.png';
-
-const bgImage = {
-  backgroundImage: `url(${Banner})`,
-};
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const Header = () => (
   <header className="fit my-header" >
-  
-  <img className="my-header-pic" src={Banner} />
-    
+    <ScrollableAnchor id={'slideshow'}>
+      <img className="my-header-pic" src={Banner} />
+    </ScrollableAnchor>
   </header>
 );
 

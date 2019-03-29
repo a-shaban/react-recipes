@@ -22,34 +22,16 @@ const Slideshow = () => {
   return (
     <Slide {...properties}>
 
-      <div className="container pointer">
-        <img className="deal-images sm-col sm-col-6 " alt={slideImages[0]} src={slideImages[0]} />
-        <p className="slide-desc sm-col sm-col-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Et netus et malesuada fames ac. Molestie nunc non blandit massa.
-          Arcu non sodales neque sodales. Risus nullam eget felis eget nunc lobortis mattis.
-        </p>
+      <div className="container img-container pointer">
+        <img className="deal-images" alt={slideImages[0]} src={slideImages[0]} />
       </div>
 
-      <div className="container pointer">
+      <div className="container img-container pointer">
         <img className="deal-images sm-col sm-col-6" alt={slideImages[1]} src={slideImages[1]} />
-        <p className="slide-desc sm-col sm-col-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Et netus et malesuada fames ac. Molestie nunc non blandit massa.
-          Arcu non sodales neque sodales. Risus nullam eget felis eget nunc lobortis mattis.
-        </p>
       </div>
 
-      <div className="container pointer">
+      <div className="container img-container pointer">
         <img className="deal-images sm-col sm-col-6" alt={slideImages[2]} src={slideImages[2]} />
-        <p className="slide-desc sm-col sm-col-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Et netus et malesuada fames ac. Molestie nunc non blandit massa.
-          Arcu non sodales neque sodales. Risus nullam eget felis eget nunc lobortis mattis.
-        </p>
       </div>
 
     </Slide>

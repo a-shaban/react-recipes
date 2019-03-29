@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../static/images/logo.png';
 import fblogo from '../static/images/contactus-icons/facebook-logo.png';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Footer = () => (
@@ -26,9 +27,13 @@ const Footer = () => (
 				</div>
 			</form>
 		</div> */}
-		<div className="center">
-		<img className="footer-logo" alt={Logo} src={Logo}></img>
-		</div>
+
+		<a href='#slideshow'>
+			<div className="center">
+				<img className="footer-logo" alt={Logo} src={Logo}></img>
+			</div>
+		</a>
+		
 
 		<div className="footer-links">
 

@@ -31,10 +31,6 @@ const NavBar = () => (
             <a>Legendary</a>
           </Link>
 
-          <Link className="dropdown-links" to="/">
-            <a>Deal</a>
-          </Link>
-
           <Link className="dropdown-links" to="/sides">
             <a>Sides</a>
           </Link>

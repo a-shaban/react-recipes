@@ -1,8 +1,8 @@
 import React from 'react';
+import SlideShow from './Slideshow';
 import ValueRange from '../static/images/value-range.jpg';
 import LegendaryRange from '../static/images/legendary-range.jpg';
 import TraditionalRange from '../static/images/traditional-range.jpg';
-import SlideShow from './Slideshow'
 
 
 const HomePage = () => (

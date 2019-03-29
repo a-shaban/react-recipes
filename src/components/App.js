@@ -11,6 +11,7 @@ import Value from './OurMenu/Value';
 import Legendary from './OurMenu/Legendary';
 import Traditional from './OurMenu/Traditional';
 import Sides from './OurMenu/Sides';
+import Products from './OurMenu/Products'
 
 const App = () => (
   <BrowserRouter>
@@ -26,6 +27,8 @@ const App = () => (
         <Route path="/traditional-pizzas" component={Traditional} />
         <Route path="/legendary-pizzas" component={Legendary} />
         <Route path="/sides" component={Sides} />
+        <Route path="/products" component={Products} />
+        
       </div>
       <Footer />
     </main>

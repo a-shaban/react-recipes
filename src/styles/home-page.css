@@ -12,8 +12,12 @@
 }
 
 .deal-images {
-   padding-top: 2%;
-   height: 28rem;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   padding: 2%;
+   height: 35rem;
 }
 
 .slide-desc {
@@ -65,4 +69,8 @@
 
 .our-selection-header {
    color: #cc7500;
+}
+
+.img-container {
+   display: flex;
 }

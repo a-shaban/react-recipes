@@ -49,5 +49,15 @@ body{
    background-color: black;
    color: #fefefecc;
 }
-
-
+button:hover {
+   background-color: #cc7500;
+ } 
+ hr{
+   display: block;
+   border-color: #e29503;
+   width: 96%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 0px;
+   background-image:url('../static/images/EPLogo.png');
+}

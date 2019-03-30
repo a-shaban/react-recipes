@@ -57,7 +57,7 @@ const NavBar = () => (
       </Link>
     </div>
 
-    <div className="navbar-item">
+    <div className="navbar-item order-now">
       <Link to="/">
         {/* <button className="order-now pointer"> */}
           <p className="center navbar-text" > ORDER NOW </p>

@@ -12,8 +12,11 @@ const AboutUs = () => (
     <div className = "aboutustext">
       <h1>We are Eagle Pizzas </h1>
       <br/>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Molestie nunc non blandit massa. Arcu non sodales neque sodales. Risus nullam eget felis eget nunc lobortis mattis.
-        just use Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Molestie nunc non blandit massa. Arcu non sodales neque sodales. Risus nullam eget felis eget nunc lobortis mattis.
+      <h3>
+        Chris Rosetta – The Owner of the 100% Locally Owned best Independent Pizza Shop in Bendigo. 
+        Has experienced it all from moving away from Eagle Boys, they decided to close up, 
+        but Chris had other plans. 
+        Join us for a timeline of the events explaining each area that Chris faced and overcame.
       </h3>
     </div>
     <hr/>

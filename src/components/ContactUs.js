@@ -9,7 +9,10 @@ import fblogo from '../static/images/contactus-icons/facebook-logo.png';
 const AboutUs = () => (
   <div className = "container">
     <div className = "contactusheading">
-      <h1>Get in touch with us </h1>
+      <h1>
+        Eagle Pizzas has been giving back to the community for over 14 years.  
+        Find how we can help you become a part of the family. Contact us today!
+      </h1>
     </div>
     <br/>
     <div className = "contactusinfo">

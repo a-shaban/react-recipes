@@ -30,9 +30,6 @@ const GivingBack = () => (
       </iframe>
       <br/>
       <br/>
-      <h3 className ="gbtext">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Molestie nunc non blandit massa. Arcu non sodales neque sodales. Risus nullam eget felis eget nunc lobortis mattis.
-      </h3>
       <br/>
     </div>
     <br/>

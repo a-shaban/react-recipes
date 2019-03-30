@@ -5,7 +5,6 @@ import PorkRibs from '../../static/images/Sides/pork-ribs.jpg';
 import SpagBolo from '../../static/images/Sides/spaghetti-bolognaise.jpg';
 import VegLasa from '../../static/images/Sides/vegetable-lasagne.jpg';
 import Wings1 from '../../static/images/Sides/wings-1.jpg';
-import Wings2 from '../../static/images/Sides/wings-2.jpg';
 
 const Sides = () => (
 
@@ -21,8 +20,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Chicken Tortellini
         </p>
       </div>
     </div>
@@ -33,8 +31,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Lasagne
         </p>
       </div>
     </div>
@@ -45,8 +42,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Pork Ribs - $7.95
         </p>
       </div>
     </div>
@@ -57,8 +53,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Spaghetti Bolognaise
         </p>
       </div>
     </div>
@@ -69,8 +64,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Vegetable Lasagne
         </p>
       </div>
     </div>
@@ -81,20 +75,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
-        </p>
-      </div>
-    </div>
-
-    <div className="product-container" >
-      <div className="product-image">
-        <img className="menu-pics pointer" alt={Wings2} src={Wings2} />
-      </div>
-      <div className="product-desc">
-        <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Chicken Wings (Buffalo, Texan BBQ or Flaming) $5.95
         </p>
       </div>
     </div>

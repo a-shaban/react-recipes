@@ -51,8 +51,8 @@ const HomePage = () => (
         </div>
         <div className="product-desc">
           <p>
-            Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-            Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+            Value: 
+            Love the Basics? Always a great choice with the Value Range
         </p>
         </div>
       </div>
@@ -63,8 +63,8 @@ const HomePage = () => (
         </div>
         <div className="product-desc">
           <p>
-            Ham and Cheese – Tomato Sauce, Mozzarella Cheese and Ham.
-            Small $4.50 Medium $4.95  Large $6.95 Family $10.95
+            Traditional Range: 
+            Looking for your classics? Don’t forget your Sides
         </p>
         </div>
       </div>
@@ -75,8 +75,8 @@ const HomePage = () => (
         </div>
         <div className="product-desc">
           <p>
-            Ham and Cheese – Tomato Sauce, Mozzarella Cheese and Ham.
-            Small $4.50 Medium $4.95  Large $6.95 Family $10.95
+            Legendary: 
+            You Know Exactly What You’re Doing. 
         </p>
         </div>
       </div>

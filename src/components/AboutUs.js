@@ -13,10 +13,14 @@ const AboutUs = () => (
       <h1>We are Eagle Pizzas </h1>
       <br/>
       <h3>
-        Chris Rosetta – The Owner of the 100% Locally Owned best Independent Pizza Shop in Bendigo. 
-        Has experienced it all from moving away from Eagle Boys, they decided to close up, 
-        but Chris had other plans. 
-        Join us for a timeline of the events explaining each area that Chris faced and overcame.
+        Chris Rosetta & Amy Rosetta – The Owners of the 100% Locally Owned
+        best Independent Pizza Shop in Bendigo. They have experienced it all
+        since moving away from Eagle Boys. Instead of going under with the
+        failed Franchisor, the decision to go independent was made. 
+        <br/>
+        <br/>
+        Join us for a timeline of the events explaining each challenge that Chris &
+        Amy faced and overcame.
       </h3>
     </div>
     <hr/>

@@ -13,6 +13,8 @@ import Mexican1 from '../../static/images/traditional/mexican-1.jpg';
 import RanchBacon from '../../static/images/traditional/ranch-style-bacon.jpg';
 import Supreme from '../../static/images/traditional/supreme.jpg';
 import Vegetarian from '../../static/images/traditional/vegetarian.jpg';
+import Lambsoulvaki from '../../static/images/traditional/Lamb-Souvlaki.jpg';
+import Chipotlebeef from '../../static/images/traditional/Chipotle_beef_and_onion.jpg';
 
 const Traditional = () => (
   <div>
@@ -191,6 +193,30 @@ const Traditional = () => (
           Vegetarian – Tomato Sauce, Mozzarella Cheese, Mushroom, Onion, Capsicum, 
           Olives, Sliced Tomato, Garlic and Mixed Herbs.  
           Small $6.95 Medium $8.95 Large $9.95 Family $13.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={Lambsoulvaki} src={Lambsoulvaki} />
+      </div>
+      <div className="product-desc">
+        <p>
+        Lamb Souvlaki – Garlic Aioli Sauce, Mozzarella, Marinated Lamb and Onion. 
+        Small $7.95, Medium $14.95, Large $10.95, Family $14.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={Chipotlebeef} src={Chipotlebeef} />
+      </div>
+      <div className="product-desc">
+        <p>
+        Chipotle Beef and Onion – BBQ sauce, Mozzarella, Pulled Beef, Onion and Spicy Chipotle Swirl. 
+        Small $6.95, Medium $8.95, Large $9.95, Family $13.95
         </p>
       </div>
     </div>

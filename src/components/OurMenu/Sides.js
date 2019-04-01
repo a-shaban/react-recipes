@@ -20,7 +20,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Chicken Tortellini
+          Chicken Tortellini $7.95
         </p>
       </div>
     </div>
@@ -31,7 +31,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Lasagne
+          Lasagne $7.95
         </p>
       </div>
     </div>
@@ -53,7 +53,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Spaghetti Bolognaise
+          Spaghetti Bolognaise $7.95 
         </p>
       </div>
     </div>
@@ -64,7 +64,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Vegetable Lasagne
+          Vegetable Lasagne $7.95
         </p>
       </div>
     </div>
@@ -75,7 +75,7 @@ const Sides = () => (
       </div>
       <div className="product-desc">
         <p>
-          Chicken Wings (Buffalo, Texan BBQ or Flaming) $5.95
+          Chicken Wings - Available as Buffalo, Texan BBQ or Flaming! $7.95
         </p>
       </div>
     </div>

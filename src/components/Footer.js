@@ -50,7 +50,7 @@ const Footer = () => (
 								Friday - Saturday: 11am - 12am
 							</p>
 							<p className="footer-links-text">
-								Public Holidays: 4pm - 9pm
+								Public Holidays: 12pm - 8pm
 							</p>
 						</div>
 					</div>

@@ -10,8 +10,7 @@ const AboutUs = () => (
   <div className = "container">
     <div className = "contactusheading">
       <h1>
-        Eagle Pizzas has been giving back to the community for over 14 years.  
-        Find how we can help you become a part of the family. Contact us today!
+      Get in Touch With Us!
       </h1>
     </div>
     <br/>
@@ -31,18 +30,9 @@ const AboutUs = () => (
           <img className = "contactusimage" alt={phone} src={phone} />
           <label>
             <h3>Call us</h3> 
-            00000000000<br/>
+            +61 54445551<br/>
           </label>
         </div>
-        <br/>
-        <br/>
-        <div className = "contactusicons">
-          <img className = "contactusimage" alt={message} src={message} />
-          <label>
-            <h3>Email us</h3> 
-            pizza@shop.com<br/>
-          </label>
-          </div>
         <br/>
         <br/>
         <div className = "contactusicons">

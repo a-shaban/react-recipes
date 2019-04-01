@@ -51,9 +51,8 @@ const HomePage = () => (
         </div>
         <div className="product-desc">
           <p>
-            Value: 
-            Love the Basics? Always a great choice with the Value Range
-        </p>
+            On a budget? Try our Value Range!
+          </p>
         </div>
       </div>
 
@@ -63,9 +62,8 @@ const HomePage = () => (
         </div>
         <div className="product-desc">
           <p>
-            Traditional Range: 
-            Looking for your classics? Don’t forget your Sides
-        </p>
+            Keeping it simple? Try the Traditional Range!
+          </p>
         </div>
       </div>
 
@@ -75,9 +73,8 @@ const HomePage = () => (
         </div>
         <div className="product-desc">
           <p>
-            Legendary: 
-            You Know Exactly What You’re Doing. 
-        </p>
+           Love your Pizzas? Try the Legendary range!
+          </p>
         </div>
       </div>
 

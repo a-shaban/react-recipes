@@ -40,26 +40,22 @@ const GivingBack = () => (
       <h1 className = "gbboxheading">Sports Clubs</h1>
       <div className = "gblogos">
         <figure>
-          <img className="gbpics" alt={BendigoCity} src={BendigoCity} />
-          <figcaption>Bendigo City Football Club</figcaption>
+          <img className="gbpics2" alt={springgully} src={springgully} />
+          <figcaption>Spring Gully Soccer Club</figcaption>
         </figure>
         <figure>
-          <img className="gbpics" alt={springgully} src={springgully} />
-          <figcaption>Bendigo City Football Club</figcaption>
-        </figure>
-        <figure>
-          <img className="gbpics" alt={falcons} src={falcons} />
-          <figcaption>Bendigo City Football Club</figcaption>
+          <img className="gbpics2" alt={falcons} src={falcons} />
+          <figcaption>Falcons Baseball Club</figcaption>
         </figure>
         </div>
         <div className = "gblogos">
         <figure>
           <img className="gbpics2" alt={bendigoeast} src={bendigoeast} />
-          <figcaption>Bendigo City Football Club</figcaption>
+          <figcaption>Bendigo East Bowling Club</figcaption>
         </figure>
         <figure>
           <img className="gbpics2" alt={maidengully} src={maidengully} />
-          <figcaption>Bendigo City Football Club</figcaption>
+          <figcaption>Maiden Gully YCW Eagles Football & Netball Club</figcaption>
         </figure>
       </div>
     </div>
@@ -72,11 +68,11 @@ const GivingBack = () => (
       <div className = "gblogos">
         <figure>
           <img className="gbpics2" alt={Axedalesmall} src={Axedalesmall} />
-          <figcaption>Bendigo City Football Club</figcaption>
+          <figcaption>Axedale Quick Shear</figcaption>
         </figure>
         <figure>
           <img className="gbpics2" alt={camphill} src={camphill} />
-          <figcaption>Bendigo City Football Club</figcaption>
+          <figcaption>Camphill Primary School</figcaption>
         </figure>
       </div>
     </div>
@@ -85,8 +81,7 @@ const GivingBack = () => (
     <br/>
     <h1 className = "gbboxheading">Join Our Family</h1>
     <h3 className ="gbtext2">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Molestie nunc non blandit massa. Arcu non sodales neque sodales. Risus nullam eget felis eget nunc lobortis mattis.
-      just use Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Molestie nunc non blandit massa. Arcu non sodales neque sodales. Risus nullam eget felis eget nunc lobortis mattis.
+      Eagle Pizzas has been giving back to the community for over 14 years. Find how we can help you become a part of the family. Contact us today!
     </h3>
     <button className="button-element btn-color pointer">
       <p className="btn-text">ENQUIRE TODAY</p>

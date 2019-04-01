@@ -5,6 +5,7 @@ import GourmetVegetarian from '../../static/images/legendary/gourmet-vegetarien.
 import PrawnsAndGarlicAioli from '../../static/images/legendary/prawns-and-garlic-aioli.jpg';
 import TandoriChicken from '../../static/images/legendary/tandori-chicken.jpg';
 import TheWorks from '../../static/images/legendary/the-works.jpg';
+import ReefAndBeef from '../../static/images/legendary/Reef_Beef.jpg';
 
 const Legendary = () => (
   <div>
@@ -87,6 +88,18 @@ const Legendary = () => (
           The Works – Tomato Sauce, Mozzarella Cheese, Pepperoni, Ham, Bacon, Pulled Beef, 
           Cabanossi, Mushroom, Onion, Capsicum, Pineapple, Olives and Hollandaise Sauce Swirl.  
           Small $9.95 Medium $11.95 Large $13.95 Family $17.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={ReefAndBeef} src={ReefAndBeef} />
+      </div>
+      <div className="product-desc">
+        <p>
+        Reef & Beef – Tomato Sauce, Mozzarella Cheese, Pulled Beef, Onion, Capsicum, Prawns and Garlic Aioli Swirl.  
+        Small $11.95 Medium $13.95 Large $16.95 Family $19.95
         </p>
       </div>
     </div>

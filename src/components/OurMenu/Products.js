@@ -5,6 +5,7 @@ import GourmetVegetarian from '../../static/images/legendary/gourmet-vegetarien.
 import PrawnsAndGarlicAioli from '../../static/images/legendary/prawns-and-garlic-aioli.jpg';
 import TandoriChicken from '../../static/images/legendary/tandori-chicken.jpg';
 import TheWorks from '../../static/images/legendary/the-works.jpg';
+import ReefAndBeef from '../../static/images/legendary/Reef_Beef.jpg';
 import CheeseLovers from '../../static/images/value/cheese-lovers.jpg';
 import HamAndCheese from '../../static/images/value/ham-and-cheese.jpg';
 import American from '../../static/images/traditional/american.jpg';
@@ -21,12 +22,19 @@ import Mexican1 from '../../static/images/traditional/mexican-1.jpg';
 import RanchBacon from '../../static/images/traditional/ranch-style-bacon.jpg';
 import Supreme from '../../static/images/traditional/supreme.jpg';
 import Vegetarian from '../../static/images/traditional/vegetarian.jpg';
+import Lambsoulvaki from '../../static/images/traditional/Lamb-Souvlaki.jpg';
+import Chipotlebeef from '../../static/images/traditional/Chipotle_beef_and_onion.jpg';
 import ChickTorte from '../../static/images/Sides/chicken-tortellini.jpg';
 import Lasagne from '../../static/images/Sides/lasagne.jpg';
 import PorkRibs from '../../static/images/Sides/pork-ribs.jpg';
 import SpagBolo from '../../static/images/Sides/spaghetti-bolognaise.jpg';
 import VegLasa from '../../static/images/Sides/vegetable-lasagne.jpg';
 import Wings1 from '../../static/images/Sides/wings-1.jpg';
+import Vegiosa from '../../static/images/value/logo.png';
+import Pepperoni from '../../static/images/value/logo.png';
+import CheeseAndGarlic from '../../static/images/value/logo.png';
+import Texan from '../../static/images/value/logo.png';
+import Margaritta from '../../static/images/value/logo.png';
 
 const Legendary = () => (
   <div>
@@ -112,6 +120,19 @@ const Legendary = () => (
         </p>
       </div>
     </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={ReefAndBeef} src={ReefAndBeef} />
+      </div>
+      <div className="product-desc">
+        <p>
+          Reef & Beef – Tomato Sauce, Mozzarella Cheese, Pulled Beef, Onion, Capsicum, Prawns and Garlic Aioli Swirl.  
+          Small $11.95 Medium $13.95 Large $16.95 Family $19.95
+        </p>
+      </div>
+    </div>
+
 
     <div className="product-container" >
       <div className="product-image">
@@ -206,7 +227,7 @@ const Legendary = () => (
         <p>
           Fire Eater – Tomato Sauce, Mozzarella Cheese, Pepperoni, Onion, Jalapeno Peppers
           and Sliced Tomato with Cajun Spices and Chilli.
-          Small $6.95 Medium $8.95 Large $11.95 Family $15.95
+          Small $6.95 Medium $9.95 Large $11.95 Family $15.95
         </p>
       </div>
     </div>
@@ -289,6 +310,30 @@ const Legendary = () => (
 
     <div className="product-container" >
       <div className="product-image">
+        <img className="menu-pics pointer" alt={Lambsoulvaki} src={Lambsoulvaki} />
+      </div>
+      <div className="product-desc">
+        <p>
+          Lamb Souvlaki – Garlic Aioli Sauce, Mozzarella, Marinated Lamb and Onion. 
+          Small $7.95, Medium $14.95, Large $10.95, Family $14.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={Chipotlebeef} src={Chipotlebeef} />
+      </div>
+      <div className="product-desc">
+        <p>
+          Chipotle Beef and Onion – BBQ sauce, Mozzarella, Pulled Beef, Onion and Spicy Chipotle Swirl. 
+          Small $6.95, Medium $8.95, Large $9.95, Family $13.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
         <img className="menu-pics pointer" alt={CheeseLovers} src={CheeseLovers} />
       </div>
       <div className="product-desc">
@@ -313,12 +358,71 @@ const Legendary = () => (
 
     <div className="product-container" >
       <div className="product-image">
+        <img className="menu-pics pointer" alt={Vegiosa} src={Vegiosa} />
+      </div>
+      <div className="product-desc">
+        <p>
+            Vegiosa – Tomato Sauce, Mozzarella Cheese, Baby Spinach, Mushroom and Olives.
+            Small $4.50 Medium $4.95 Large $6.95 Family $10.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={Pepperoni} src={Pepperoni} />
+      </div>
+      <div className="product-desc">
+        <p>
+          Pepperoni – Tomato Sauce, Mozzarella Cheese and Pepperoni.  
+          Small $4.50 Medium $4.95 Large $6.95 Family $10.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={CheeseAndGarlic} src={CheeseAndGarlic} />
+      </div>
+      <div className="product-desc">
+        <p>
+          Cheese & Garlic – Garlic Aioli and Mozzarella Cheese.  
+          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={Texan} src={Texan} />
+      </div>
+      <div className="product-desc">
+        <p>
+          The Texan – Spicy Bbq sauce, Mozzarella, Pepperoni, Onion, Capsicum and Cajun Spices. 
+          Small $4.95, Medium $5.95, Large $7.95, Family $11.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
+        <img className="menu-pics pointer" alt={Margaritta} src={Margaritta} />
+      </div>
+      <div className="product-desc">
+        <p>
+          Margaritta – Tomato Sauce, Garlic, Mixed Herbs, Mozzarella Cheese, Sliced Tomato and Parmesan Cheese.  
+          Small $4.95 Medium $5.95 Large $7.95 Family $11.95
+        </p>
+      </div>
+    </div>
+
+    <div className="product-container" >
+      <div className="product-image">
         <img className="menu-pics pointer" alt={ChickTorte} src={ChickTorte} />
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Chicken Tortellini $7.95
         </p>
       </div>
     </div>
@@ -329,8 +433,7 @@ const Legendary = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Pork Ribs $7.95
         </p>
       </div>
     </div>
@@ -341,8 +444,7 @@ const Legendary = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Lasagne $7.95
         </p>
       </div>
     </div>
@@ -353,8 +455,7 @@ const Legendary = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Spaghetti Bolognaise $7.95 
         </p>
       </div>
     </div>
@@ -365,8 +466,7 @@ const Legendary = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Vegetable Lasagne $7.95
         </p>
       </div>
     </div>
@@ -377,8 +477,7 @@ const Legendary = () => (
       </div>
       <div className="product-desc">
         <p>
-          Cheese Lovers – Tomato Sauce and Mozzarella Cheese.
-          Small $3.95 Medium $4.50 Large $5.95 Family $9.95
+          Chicken Wings - Available as Buffalo, Texan BBQ or Flaming! $7.95
         </p>
       </div>
     </div>
